@@ -2,8 +2,46 @@
 # Introduction
 This guide aims to give insight in the possible paths you can take with regard to traditions. Since, depending on your initial Commandment, not all traditions are available.
 The classifications for the traditions in the categories Core Economy, Economy and Power are based on the guide [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2200883930)
+* [Generosity](#generosity)
+* [Peace](#peace)
+* [War](#war)
+* [Purity](#purity)
+* [Greed](#greed)
+* [Pleasure](#pleasure)
+* [Madness](#madness)
+* [Brainwashing](#brainwashing)
+* [Human Sacrifice](#human-sacrifice)
+* [Grand Abberation](#grand-abberation)
+* [Community Elder](#community-elder)
+* [Carnival](#carnival)
+* [Turn the Other Cheek](#turn-the-other-cheek)
+* [Might Makes Right](#might-makes-right)
+* [God of Thieves](#god-of-thieves)
+* [Monastery of Miracles](#monastery-of-miracles)
+* [Cult of Silence](#cult-of-silence)
+* [Idol](#idol)
+* [Champion of God](#champion-of-god)
+* [War Slaves](#war-slaves)
+* [Holy Judge](#holy-judge)
+* [Animism](#animism)
+* [Baptism](#baptism)
+* [Revelations](#revelations)
+* [Hermit Pilgrimage](#hermit-pilgrimage)
+* [Just New World](#just-new-world)
+* [Burials](#burials)
+* [Heavenly Art](#heavenly-art)
+* [School of Philosophy](#school-of-philosophy)
+* [Ecstatic Salvation](#ecstatic-salvation)
+* [Cannibalism](#cannibalism)
+* [Holy Marriage](#holy-marriage)
+* [Doom Prophecy](#doom-prophecy)
+* [Trade Missions](#trade-missions)
+* [Bribery](#bribery)
+* [Alchemy](#alchemy)
+* [Martial Arts](#martial-arts)
+* [Reincarnation](#reincarnation)
 
-# Starting traditions
+# Commandments
 
 ## Generosity
 

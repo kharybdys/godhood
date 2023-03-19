@@ -55,7 +55,8 @@ class TraditionsGuide(Guide):
         introduction_1 = "This guide aims to give insight in the possible paths you can take with regard to traditions. Since, depending on your initial Commandment, not all traditions are available."
         introduction_2 = "The classifications for the traditions in the categories Core Economy, Economy and Power are based on the guide "
         url = self.formatter.as_url("here",  "https://steamcommunity.com/sharedfiles/filedetails/?id=2200883930")
-        return self.formatter.as_header("Introduction") + self.formatter.as_paragraphs([introduction_1, introduction_2 + url])
+        traditions_list = [self.formatter.as_url(tradition.name, self.formatter.as_index_key(tradition.name)) for tradition in data_base.TRADITIONS]
+        return self.formatter.as_header("Introduction") + self.formatter.as_paragraphs([introduction_1, introduction_2 + url]) + self.formatter.as_bullet_list(traditions_list)
 
     def generate_traditions(self) -> str:
         return self.print_starting_traditions() + self.print_economy_super_traditions() + self.print_economy_traditions() + self.print_power_traditions()
@@ -115,7 +116,7 @@ class TraditionsGuide(Guide):
         return self.formatter.as_header(header) + self.formatter.as_paragraphs(paragraphs)
 
     def print_starting_traditions(self):
-        return self._print_traditions_for_category("Starting traditions", data_base.CATEGORY_STARTING)
+        return self._print_traditions_for_category("Commandments", data_base.CATEGORY_STARTING)
 
     def print_economy_super_traditions(self):
         return self._print_traditions_for_category("Core economy traditions", data_base.CATEGORY_ECONOMY_SUPER)
