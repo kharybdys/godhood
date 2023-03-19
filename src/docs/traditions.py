@@ -62,9 +62,9 @@ class TraditionsGuide(Guide):
         return self.print_starting_traditions() + self.print_economy_super_traditions() + self.print_economy_traditions() + self.print_power_traditions()
 
     def generate_closing(self) -> str:
-        return self.formatter.as_paragraphs(["""This is based on data collected by starting every commandment then taking the first tradition and checking which tenets were new compared to the initial commandment.
-        When that was not enough, other specific paths were taken to get the same tradition as second choice such that no already-granted tenets overlapped.""",
-                                             """I've also made a program in Python that can help navigate this structure, just run main.py."""])
+        closing_thoughts_1 = """This is based on data collected by starting every commandment then taking the first tradition and checking which tenets were new compared to the initial commandment.
+         When that was not enough, other specific paths were taken to get the same tradition as second choice such that no already-granted tenets overlapped."""
+        return self.formatter.as_header("Closing thoughts") + self.formatter.as_paragraphs([closing_thoughts_1, """I've also made a program in Python that can help navigate this structure, just run main.py."""])
 
     def print_reachable_from_this_tradition(self, tradition: data_base.Tradition) -> str:
         reachable_traditions: dict[data_base.Tradition, list[data_base.Tenet]] = defaultdict(list)

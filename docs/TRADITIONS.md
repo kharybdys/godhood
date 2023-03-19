@@ -1563,6 +1563,8 @@ The classifications for the traditions in the categories Core Economy, Economy a
 |Bribery (Power)|Order of Priests (Social (happiness))|
 |Martial Arts (Power)|No Pain, No Gain (Philosophy (resources))|
 |Turn the Other Cheek (Core Economy)|Sabbath (Philosophy (resources))|
+
+# Closing thoughts
 This is based on data collected by starting every commandment then taking the first tradition and checking which tenets were new compared to the initial commandment.
-        When that was not enough, other specific paths were taken to get the same tradition as second choice such that no already-granted tenets overlapped.
+         When that was not enough, other specific paths were taken to get the same tradition as second choice such that no already-granted tenets overlapped.
 I've also made a program in Python that can help navigate this structure, just run main.py.
