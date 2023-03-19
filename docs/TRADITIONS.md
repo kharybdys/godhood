@@ -41,6 +41,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * [Martial Arts](#martial-arts)
 * [Reincarnation](#reincarnation)
 
+
 # Commandments
 
 ## Generosity
@@ -49,6 +50,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Class: Cook (Nature, Charisma & Knowledge)
 * Fire Heart (Relic): 50% charisma to physical armor. Unlocks Zealot (Divine) and Songsmith (Life).
 * Godly Recipe (Relic): 100% knowledge to faith (up to 100). Unlocks Druid (Nature) and Harbinger (Dark).
+
 
 ### Unlocks tenets
 
@@ -84,6 +86,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Halo (Relic): +1 xp per mission per 20 points of morale armor. Unlocks Druid (Nature) and Zealot (Divine)
 * The First Word (Relic): 50% of charisma to initiative. Unlocks Weaver (Dark) and Songsmith (Life)
 
+
 ### Unlocks tenets
 
 
@@ -118,6 +121,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Voice Thresher (Relic): Might abilities give the opponent a chance to stumble on their words and lose converts. Unlocks Beast Walker (Nature) and Chieftain (Ancestral).
 * Eternal Shield (Relic): Abilities gain +1 evasion scaling. Unlocks Guardian (Life) and Rage Prophet (Ancestral).
 
+
 ### Unlocks tenets
 
 
@@ -150,6 +154,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Class: Ascetic (Divine, Health & Devotion)
 * Holy Water (Relic): In the third round, one of your disciples uses an AoE morale ability that scales with the devotion of the entire team. Unlocks Druid (Nature) and Zealot (Divine).
 * Cleansing Apple (Relic): 50% of health to defy. Unlocks Guardian (Life) and Harbinger (Dark).
+
 
 ### Unlocks tenets
 
@@ -186,6 +191,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Golden Mask (Relic): Cunning abilities have +20 accuracy and deal +100% damage on crits. Unlocks Beastwalker (Nature) and Guardian (Life).
 * Idol of Greed (Relic): +1 ability point when knowledge goes rank up (not F to E). Unlocks Weaver (Dark) and Druid (Nature)
 
+
 ### Unlocks tenets
 
 
@@ -218,6 +224,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Class: Lust Priest (Nature, Charisma & Cunning)
 * Anklet of Joy (Relic): Abilities gain +1 Evasion scaling. Unlocks Beastwalker (Nature) and Songsmith (Life).
 * Holy Rose (Relic): Charisma abilities have 33% chance to Infatuate target for 2 rounds. Unlocks Weaver (Dark) and Chieftain (Ancestral).
+
 
 ### Unlocks tenets
 
@@ -252,6 +259,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Sacred Infant (Relic): 50% of Might to crit chances. Unlocks Beast Walker (Nature) and Chieftain (Ancestral).
 * Secret Pyramid (Relic): Knowledge abilities make enemies Mad for 2 rounds, increasing chance to intercept badly and 1 Clouded Thought. Unlocks Weaver (Dark) and Druid (Nature).
 
+
 ### Unlocks tenets
 
 
@@ -285,6 +293,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 
 * Passive: Gain 1/2 extra tribute chests if disciples have 3/8 overpower abilities.
 * Action: Brainwash. Cost 200 (increases), cooldown 6, Gain 2 extra tribute chests next mission. All future disciplines gain +5 faith and -2 knowledge
+
 
 ### Unlocks tenets
 
@@ -321,6 +330,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 
 * Action: Choose Master of Sacrifice. Cost 100. Can learn morale Ancestral ability that scales on might and lowers physical armor (Fear).
 * Action: Human Sacrifice. Cost: 50, cooldown 4. If participating: +1/2/4 Tribute Chests if you have 1/3/6 Ancestral and Divine disciples.
+
 
 ### Unlocks tenets
 
@@ -359,6 +369,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 
 * Action: Choose Grand Summoner. Cost 0. Can learn Nature physical AoE that scales on might and has a chance to stun (Overpower, Sorcery).
 * Action: The Great Summoning. Cost 50, cooldown 4. If participating, +1/2/4 Tribute Chests if you have 1/3/6 Dark and Nature disciples.
+
 
 ### Unlocks tenets
 
@@ -403,6 +414,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Action: Assign Community Elder. Cost 0. If participating +1 Tribute Chest, and +1 Tribute Chest if highest Charisma or Knowledge. -5 Faith each mission.
 * Action: Community Meeting. Cost 0, cooldown 4. All disciples +10 Morale Armor for 1 mission. +1 Happiness
 
+
 ### Unlocks tenets
 
 
@@ -442,6 +454,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 
 * Action: Carnival. Cost 200, cooldown 4. 3 random disciples develop 1x Charisma, but can also gain temporary debuff. +1 Happiness. -2 Faith
 
+
 ### Unlocks tenets
 
 
@@ -479,6 +492,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 
 * Passive: All physical abilities that convert by something other than Grace get replaced by Devout(++), a moral ability that scales by Devotion.
 * Action: Glory of Grace. Cost 50, cooldown 4. +1/2/3/4 Tribute Chests if you start the next mission with 0/3/7/12 Grace abilities.
+
 
 ### Unlocks tenets
 
@@ -520,6 +534,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Passive: Disciple with highest might gains 40 faith. 3 disciples with lowest might lose 2 faith.
 * Action: Impose right. Cost 0, cooldown 4. Disciple with highest might gains +3 tribute chests for next mission. Weakest 3 disciples gain -3 faith.
 
+
 ### Unlocks tenets
 
 
@@ -560,6 +575,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 ## God of Thieves
 
 * Action: Steal chests. Cost 25, cooldown 2. Choose a disciple. Unavailable for 1 mission and loses 1 fervor. +1/2/4 Tribute chests if disciple has rank D/C/A Cunning.
+
 
 ### Unlocks tenets
 
@@ -603,6 +619,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Passive: All Sorcery abilities give the target -15 Accuracy for two rounds.
 * Action: Humbling Augury. Cost 25, cooldown 1. Target disciple with lowest power. +5 Faith. If participating, +1 Tribute Chest. Cannot receive Broken Faith status and do not lose converts when broken.
 
+
 ### Unlocks tenets
 
 
@@ -644,6 +661,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Passive: All Dark and Divine disciples can learn Silence: Dark morale ability that disables opponents morale abilities. Scales on Might and knowledge (Fear).
 * Action: Enforce Silence. Cost 150, cooldown 3. Choose a disciple to gain Silence++ for 1 mission. For 1 mission, gain +1/2/3/4 Spark if disciples have 3/6/10/15 Fear abilities on their mind.
 
+
 ### Unlocks tenets
 
 
@@ -684,6 +702,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 
 * Action: Assign Idol. Choose Idol. If participating, +50% charisma materials from tribute chests. -5 Faith. Can learn strong AoE Life Morale ability that can infatuate targets.
 * Action: Please Fans. Cost 25, cooldown 4. If Idol participates, +2 tribute chests for 1 mission. -5 Faith.
+
 
 ### Unlocks tenets
 
@@ -730,6 +749,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Action: Assign champion. Choose Champion of God. If participating, +50% health materials from tribute chests. Can learn Life physical ability that steals converts.
 * Action: Rally Troops. Cost 100, cooldown 3. +1 tribute chest for next mission. All disciples boost to physical and moral armor
 
+
 ### Unlocks tenets
 
 
@@ -767,6 +787,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 
 * Passive: -1 Happiness, +1 Tribute Chest from repeatables.
 * Action: Double Shifts. Cost 0, cooldown 3. +100% materials from tribute chests for 1 mission if it's repeatable. -2 Faith for all disciples.
+
 
 ### Unlocks tenets
 
@@ -811,6 +832,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Action: Assign Holy Judge. Cost 0. Can learn Ancestral morale ability that disables physical abilities. Scales on devotion (Reason, Grace).
 * Action: Holy Trial. Cost 100, cooldown 3. Judge another disciple. +1 Tribute Chest for 1 mission. +1 Tribute Chest for 1 mission per 2 Reason abilities on the Holy Judge's mind. Judged disciple gains 2 Clouded Thoughts for 2 missions.
 
+
 ### Unlocks tenets
 
 
@@ -854,6 +876,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Passive: Nature and Life disciples +20 Faith.
 * Action: Commune with Spirits. Cost 50, cooldown 3. Next mission +20% stats if Nature disciple in team. +2 Fervor. If participating: +50% Offering from Tribute Chests for 1 mission.
 
+
 ### Unlocks tenets
 
 
@@ -892,6 +915,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 
 * Action: Baptize. Cost 0, cooldown 3. Baptize a disciple. +25 Faith and regain all Fervor. Develop 2x devotion. +100% offerings from tribute chests for 1 mission.
 * Each disciple can only be baptized once.
+
 
 ### Unlocks tenets
 
@@ -936,6 +960,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Action: Revelation. Cost 75, cooldown 1. Reveal yourself to one disciple who gains progress current ritual x8 and 2 years of age.
 * Action: Final Revelation. Cost ?, cooldown ?. Let an Elder Disciple die. Gain +1/2/4 spark if disciple has rank F/C/A Devotion.
 
+
 ### Unlocks tenets
 
 
@@ -973,6 +998,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 ## Hermit Pilgrimage
 
 * Action: Hermit Pilgrimage. Cost 100, cooldown 1. Choose a disciple with at least X knowledge (X based on island). Disciple will gain: Unavailable for 1 mission, 8 xp, 2 ability points.
+
 
 ### Unlocks tenets
 
@@ -1013,6 +1039,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 ## Just New World
 
 * Action: Declare Revolution. Cost 250, cooldown 6. All disciples complete their current ritual. All disciples gain boosted moracle and physical damage for 1 mission. +100% materials from Tribute Chests for 1 mission.
+
 
 ### Unlocks tenets
 
@@ -1055,6 +1082,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Passive: When disciple dies, next mission +1/3/7 tribute chests if rank C/B/A Health.
 * Action: Ceremonial Burial. Cost 150, cooldown 4. Hold a burial (no deaths needed). All disciples develop x1 Health. Temporary -2 happiness
 
+
 ### Unlocks tenets
 
 
@@ -1094,6 +1122,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Action: Choose Heavenly Sculptor. Can learn strong Life morale ability that scales on Charisma and Knowledge and lowers opponents morale damage (Grace).
 * Action: Inspire Great Art. Cost 200, cooldown 3. Upgrade all future disciples' base stats by 1. Talk more about art for 1 mission. Attract new followers depending on knowledge.
 
+
 ### Unlocks tenets
 
 
@@ -1132,6 +1161,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 ## School of Philosophy
 
 * Action: Send to School. Cost 100, cooldown 3. Disciple unavailable for 1 mission. Develop 1x Knowledge, gain 4 xp, and learn an ability (Preferred: Reason)
+
 
 ### Unlocks tenets
 
@@ -1174,6 +1204,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 
 * Action: Grant Ecstacy. Cost 100, cooldown 3. Disciple gains develop 2x Cunning. If participating +50% cunning materials from tribute chests in 1 mission. +10 Faith
 
+
 ### Unlocks tenets
 
 
@@ -1211,6 +1242,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 ## Cannibalism
 
 * Action: Cannibal Meal. Cost 0, cooldown 2. Disciple gains 1x Might, Health and Cunning development. -10 Faith
+
 
 ### Unlocks tenets
 
@@ -1250,6 +1282,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 
 * Action: Holy Marriage. Choose a Holy Spouse. He/she gains if participating +25% devotion offerings from tribute chests.
 * Action: Holy Procession. Cost 100, cooldown 3. Holy Spouse gains develop 1 devotion and 0.25 other stats. -10 Faith.
+
 
 ### Unlocks tenets
 
@@ -1291,6 +1324,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 
 * Action: Doom Prophecy. Cost 0, cooldown 3. Choose disciple. Develop 0.5 Charisma & 0.5 Knowledge. One Mad thought for 1 mission. If participating +100% knowledge offerings from tribute chests
 
+
 ### Unlocks tenets
 
 
@@ -1329,6 +1363,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 ## Trade Missions
 
 * Action: Trade Mission. Cost 150, cooldown 5. Send a disciple. Unavailable for 2 missions. Permanently add +5/10/20 Passive materials income if disciple has D/B/A knowledge rank. All disciples develop 1x knowledge.
+
 
 ### Unlocks tenets
 
@@ -1371,6 +1406,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 
 * Action: Bribe. Cost 0, cooldown 1. Choose disciple. Develops 2x Might. +20 Faith. -1 Happiness
 
+
 ### Unlocks tenets
 
 
@@ -1412,6 +1448,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 * Action: Choose an Alchemist. +1 Knowledge scaling on all physical abilities. Will sometimes use Concoction which heals allies based on Knowledge and raises Might and another random physical stat.
 * Action: Perform Alchemy. Cost 100, cooldown 3 days (practically 1 mission). Turn 100 Offerings into 50/70/90 Materials if alchemist has Knowledge rank F/C/A
 
+
 ### Unlocks tenets
 
 
@@ -1449,6 +1486,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 
 * Passive: All overpower abilities lower all opponent's physical armor with 50% for 1 round.
 * Action: Bless fists. Cost 100, cooldown 3. Choose a disciple. If participating: +100% Might Offerings from Tribute chests. Chance to follow up ally's physical ability if turn is NOT yet taken.
+
 
 ### Unlocks tenets
 
@@ -1491,6 +1529,7 @@ The classifications for the traditions in the categories Core Economy, Economy a
 
 * Action: Reincarnate the First Prophet. Choose a disciple with an advanced class who can still gain a miracle. Enough XP to gain a level. A powerful Prophet Miracle. +15 Faith.
 * Action: Stories from the past. Cost 100, cooldown 3. If Prophet (Reincarnate) participates: +1 Tribute chest. +1 Tribute chest if highest Might or Charisma. +5 citizens per power
+
 
 ### Unlocks tenets
 

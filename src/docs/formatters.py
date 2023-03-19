@@ -59,7 +59,7 @@ class MarkdownFormatter(Formatter):
         return self.LINE_SEP + self.LINE_SEP + self.LINE_SEP.join(lines)
 
     def as_bullet_list(self, content: list[str]) -> str:
-        return self._join_incl_start(f"{self.LINE_SEP}* ", content)
+        return self._join_incl_start(f"{self.LINE_SEP}* ", content) + self.LINE_SEP
 
     def as_paragraphs(self, content: list[str]) -> str:
         return f"{self.LINE_SEP}".join(content)

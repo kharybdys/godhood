@@ -19,12 +19,14 @@ This guide aims to give an overview of all classes.
 * [Lust Priest](#lust-priest)
 * [Cultist](#cultist)
 
+
 ## Harbinger
 
 * Available: GENERAL
 * Element: DARK
 * Stats: Knowledge, Health
 * +30 Morale Accuracy, +30 Physical Accuracy, -10 Morale Armor
+
 ### Abilities
 
 
@@ -72,6 +74,7 @@ Physical ability
 * Element: LIGHT
 * Stats: Cunning, Health
 * +50% HP, increased intercept physical, -25 critical hit chance
+
 ### Abilities
 
 
@@ -119,6 +122,7 @@ A Life physical ability
 * Element: ANCESTRAL
 * Stats: Might, Health
 * +50% HP, increased optimal targeting, -10 morale armor.
+
 ### Abilities
 
 
@@ -166,6 +170,7 @@ An ancestral physical ability
 * Element: NATURE
 * Stats: Might, Cunning
 * +10 initiative, +10 critical hit chance, -25% HP
+
 ### Abilities
 
 
@@ -213,6 +218,7 @@ A nature physical ability with increased chance to crit.
 * Element: DIVINE
 * Stats: Might, Devotion
 * +10 morale armor, increased intercept morale, -10 initiative
+
 ### Abilities
 
 
@@ -260,6 +266,7 @@ A potent divine physical ability that scales on both might and devotion.
 * Element: ANCESTRAL
 * Stats: Might, Charisma
 * +10 initiative, +25% HP, -25 defy.
+
 ### Abilities
 
 
@@ -307,6 +314,7 @@ A powerful ancestral morale ability.
 * Element: DARK
 * Stats: Knowledge, Charisma
 * +25 defy, increased optimal targeting, -25% HP
+
 ### Abilities
 
 
@@ -354,6 +362,7 @@ Dark morale ability with increased chance to crit.
 * Element: DIVINE
 * Stats: Charisma, Devotion
 * +10 morale armor, +10 initiative, -10 physical armor
+
 ### Abilities
 
 
@@ -401,6 +410,7 @@ Lesser divine morale abilty that dazes the opponent for one round.
 * Element: NATURE
 * Stats: Knowledge, Devotion
 * +10 morale armor, +25% HP, -10 critical argument chance.
+
 ### Abilities
 
 
@@ -448,6 +458,7 @@ A nature physical ability that leaves the target hampered and unable to use some
 * Element: LIFE
 * Stats: Charisma, Cunning
 * +10 evasion, +10 crit argument chance, -10 morale armor
+
 ### Abilities
 
 
@@ -495,6 +506,7 @@ A Life morale ability that raises your team's cunning.
 * Element: DARK
 * Stats: Might, Health
 * +25 critical hit chance, increased optimal targeting, -25 evasion.
+
 ### Abilities
 
 
@@ -542,6 +554,7 @@ A Dark physical ability that targets all enemies.
 * Element: DIVINE
 * Stats: Devotion, Health
 * +2 fervor, increased intercept morale, increased intercept physical
+
 ### Abilities
 
 
@@ -589,6 +602,7 @@ A Dark physical ability that often goes for the weakest target.
 * Element: NATURE
 * Stats: Knowledge, Charisma
 * +10 initiative, +10 crit argument chance, -10 physical armor
+
 ### Abilities
 
 
@@ -636,6 +650,7 @@ A Divine morale ability.
 * Element: ANCESTRAL
 * Stats: Charisma, Devotion
 * +25% HP, -25 initiative, -10 evasion
+
 ### Abilities
 
 
@@ -683,6 +698,7 @@ A Divine morale ability.
 * Element: LIFE
 * Stats: Knowledge, Cunning
 * +25 evasion, +10 crit argument chance, -25% HP
+
 ### Abilities
 
 
@@ -730,6 +746,7 @@ A Life morale ability that steals materials.
 * Element: NATURE
 * Stats: Charisma, Cunning
 * +30 physical accuracy, increased optimal targeting, -1 fervor
+
 ### Abilities
 
 
@@ -777,6 +794,7 @@ A Life physical ability with higher crit chance.
 * Element: DARK
 * Stats: Knowledge, Might
 * +25 crit argument chance, +25 crit hit chance, -10 physical accuracy
+
 ### Abilities
 
 
