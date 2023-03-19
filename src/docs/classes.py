@@ -7,14 +7,15 @@ class ClassesGuide(Guide):
         return self.formatter.as_paragraphs([self.generate_introduction(), self.generate_classes()])
 
     def generate_introduction(self) -> str:
-        return self.formatter.as_header("Classes") + """This guide aims to give an overview of all classes."""
+        class_list = [self.formatter.as_url(cls.name, self.formatter.as_index_key(cls.name)) for cls in CLASSES]
+        return self.formatter.as_header("Classes") + """This guide aims to give an overview of all classes.""" + self.formatter.as_bullet_list(class_list)
 
     def generate_classes(self) -> str:
         return self.formatter.as_paragraphs([self.generate_class(cls) for cls in CLASSES])
 
     def generate_class(self, cls: GodhoodClass) -> str:
         effects = ["Available: " + cls.availability, "Element: " + cls.element, "Stats: " + ", ".join(cls.stats), cls.de_buffs]
-        return self.formatter.as_subheader(cls.name) + self.formatter.as_bullet_list(effects) + self.generate_abilities(cls) + self.generate_passives(cls)
+        return self.formatter.as_subheader(self.formatter.as_index(cls.name)) + self.formatter.as_bullet_list(effects) + self.generate_abilities(cls) + self.generate_passives(cls)
 
     def generate_abilities(self, cls: GodhoodClass) -> str:
         return self.formatter.as_subsubheader("Abilities") + self.formatter.LINE_SEP.join([self.generate_ability(ability) for ability in cls.abilities])
@@ -26,7 +27,7 @@ class ClassesGuide(Guide):
         style_key = "Style"
         headers = [element_key, type_key, stats_key, style_key]
         table = [{element_key: ability.element, type_key: ability.type, stats_key: ability.stats, style_key: ability.style}]
-        return self.formatter.LINE_SEP + self.formatter.as_subsubsubheader(ability.name) + self.formatter.as_table(headers, table) + self.formatter.LINE_SEP + ability.effect
+        return self.formatter.LINE_SEP + self.formatter.as_subsubsubheader(ability.name) + self.formatter.as_table(headers, table) + self.formatter.LINE_SEP + self.formatter.LINE_SEP + ability.effect
 
     def generate_passives(self, cls: GodhoodClass) -> str:
         col1_key = "Choice 1"

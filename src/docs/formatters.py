@@ -18,6 +18,14 @@ class Formatter(ABC):
         pass
 
     @abstractmethod
+    def as_index(self, content: str) -> str:
+        pass
+
+    @abstractmethod
+    def as_index_key(self, content: str) -> str:
+        pass
+
+    @abstractmethod
     def as_header(self, content: str, level: int = 1) -> str:
         pass
 
@@ -59,6 +67,13 @@ class MarkdownFormatter(Formatter):
 
     def as_paragraphs(self, content: list[str]) -> str:
         return f"{self.LINE_SEP}".join(content)
+
+    def as_index_key(self, content: str) -> str:
+        index_key = content.replace(" ", "-")
+        return f"#{index_key}"
+
+    def as_index(self, content: str) -> str:
+        return f"{content} {{{self.as_index_key(content)}}}"
 
     def as_header(self, content: str, level: int = 1) -> str:
         header_marker = "#" * level

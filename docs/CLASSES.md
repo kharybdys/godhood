@@ -1,8 +1,25 @@
 
 # Classes
 This guide aims to give an overview of all classes.
+* [Harbinger](#Harbinger)
+* [Guardian](#Guardian)
+* [Rage Prophet](#Rage-Prophet)
+* [Beast Walker](#Beast-Walker)
+* [Smitesword](#Smitesword)
+* [Chieftain](#Chieftain)
+* [Weaver](#Weaver)
+* [Zealot](#Zealot)
+* [Druid](#Druid)
+* [Songsmith](#Songsmith)
+* [Executioner](#Executioner)
+* [Ascetic](#Ascetic)
+* [Cook](#Cook)
+* [Ambassador](#Ambassador)
+* [Charlatan](#Charlatan)
+* [Lust Priest](#Lust-Priest)
+* [Cultist](#Cultist)
 
-## Harbinger
+## Harbinger {#Harbinger}
 
 * Available: GENERAL
 * Element: DARK
@@ -17,6 +34,7 @@ This guide aims to give an overview of all classes.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DARK|MORALE|Knowledge|Reason|
+
 Lesser morale ability that lowers morale armor
 
 
@@ -26,6 +44,7 @@ Lesser morale ability that lowers morale armor
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DARK|MORALE|Knowledge, Health|Fear|
+
 Morale ability that has a chance to Fear
 
 
@@ -35,6 +54,7 @@ Morale ability that has a chance to Fear
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DARK|PHYSICAL|Health|Sorcery|
+
 Physical ability
 ### Passives
 
@@ -46,7 +66,7 @@ Physical ability
 |Channel Negativity: +5% charisma and might per debuff the opponent has.|Dark Guardian: Significantly increases the chance to intercept physical. Gain resistance vs Dark.|Knowledge & Health Up: +5 Knowledge and +5 Health|
 |Break & Berate: Always follow up another ally's Reason ability.|Reaper: +20% might and health every time another ally uses a Fear ability.|Knowledge & Health Up: +5 Knowledge and +5 Health|
 
-## Guardian
+## Guardian {#Guardian}
 
 * Available: GENERAL
 * Element: LIGHT
@@ -61,6 +81,7 @@ Physical ability
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |LIGHT|PHYSICAL|Health|Grace|
+
 Self-heal, increase physical armor and the chance to intercept physical for one turn.
 
 
@@ -70,6 +91,7 @@ Self-heal, increase physical armor and the chance to intercept physical for one 
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |LIGHT|PHYSICAL|Health|Overpower|
+
 Lesser physical ability, but has a chance to stun.
 
 
@@ -79,6 +101,7 @@ Lesser physical ability, but has a chance to stun.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |LIGHT|PHYSICAL|Cunning|Sorcery|
+
 A Life physical ability
 ### Passives
 
@@ -90,7 +113,7 @@ A Life physical ability
 |Force of God: +50% Base physical power.|Spiked Shield: Chance to counter a physical attack. Counter-attack scales with Health.|Cunning & Health Up: +5 Cunning and +5 Health|
 |Juggernaut: +20% might and cunning every time another ally uses an overpower ability.|Mountain of Life: +30% Health. Resistance vs Dark.|Cunning & Health Up: +5 Cunning and +5 Health|
 
-## Rage Prophet
+## Rage Prophet {#Rage-Prophet}
 
 * Available: GENERAL
 * Element: ANCESTRAL
@@ -105,6 +128,7 @@ A Life physical ability
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |NONE|PHYSICAL|Health|Overpower|
+
 An elementless physical ability with a chance to stun the target.
 
 
@@ -114,6 +138,7 @@ An elementless physical ability with a chance to stun the target.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |ANCESTRAL|PHYSICAL|Might|Fear|
+
 Random power ancestral physical ability that targets a random opponent with reduced chance to hit.
 
 
@@ -123,6 +148,7 @@ Random power ancestral physical ability that targets a random opponent with redu
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |ANCESTRAL|PHYSICAL|Might|Sorcery|
+
 An ancestral physical ability
 ### Passives
 
@@ -134,7 +160,7 @@ An ancestral physical ability
 |Revenge: Chance to counter a physical attack. Counter-attack scales with Health.|Wild Eye: 25% of might added to critical hit chance.|Might & Health Up: +5 Might and +5 Health|
 |Magic Strike: +25% damage every time another ally uses a sorcery ability.|Avatar of Strife: Resistance vs Life. Chance to follow up enemy Life abilities.|Might & Health Up: +5 Might and +5 Health|
 
-## Beast Walker
+## Beast Walker {#Beast-Walker}
 
 * Available: GENERAL
 * Element: NATURE
@@ -149,6 +175,7 @@ An ancestral physical ability
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |NATURE|PHYSICAL|Cunning|Sorcery|
+
 A lesser nature physical ability that increases the evasion of your allies.
 
 
@@ -158,6 +185,7 @@ A lesser nature physical ability that increases the evasion of your allies.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |NATURE|PHYSICAL|Cunning|Grace|
+
 A nature physical ability with increased chance to hit.
 
 
@@ -167,6 +195,7 @@ A nature physical ability with increased chance to hit.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |NATURE|PHYSICAL|Might|Fear|
+
 A nature physical ability with increased chance to crit.
 ### Passives
 
@@ -178,7 +207,7 @@ A nature physical ability with increased chance to crit.
 |Prowlers: Allied abilities gain +Evasion scaling for damage (same effect does not stack).|God-Hunter: Chance to Follow up enemy divine abilities.|Might & Cunning Up: +5 Might and +5 Cunning|
 |Swift Judgement: Extra Move on your first turn.|God Steps: +20% might and cunning every time another ally uses a Grace ability.|Might & Cunning Up: +5 Might and +5 Cunning|
 
-## Smitesword
+## Smitesword {#Smitesword}
 
 * Available: GENERAL
 * Element: DIVINE
@@ -193,6 +222,7 @@ A nature physical ability with increased chance to crit.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DIVINE|MORALE|Devotion|Reason|
+
 A divine morale ability that improves morale armor and the chance to intercept morale.
 
 
@@ -202,6 +232,7 @@ A divine morale ability that improves morale armor and the chance to intercept m
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DIVINE|PHYSICAL|Might|Overpower|
+
 A divine physical ability. Lowers the target's knowledge.
 
 
@@ -211,6 +242,7 @@ A divine physical ability. Lowers the target's knowledge.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DIVINE|PHYSICAL|Might, Devotion|Grace|
+
 A potent divine physical ability that scales on both might and devotion.
 ### Passives
 
@@ -222,7 +254,7 @@ A potent divine physical ability that scales on both might and devotion.
 |Sword of Faith: The smitesword's abilities gain might scaling.|Great Challenger: Convert based on Devotion when intercept morale.|Might & Devotion Up: +5 Might and +5 Devotion|
 |Fist of God: +25% might whenever another ally uses an overpower ability.|Destined: +10% crit chance and +25% crit damage every time another ally uses a grace ability.|Might & Devotion Up: +5 Might and +5 Devotion|
 
-## Chieftain
+## Chieftain {#Chieftain}
 
 * Available: GENERAL
 * Element: ANCESTRAL
@@ -237,6 +269,7 @@ A potent divine physical ability that scales on both might and devotion.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |ANCESTRAL|MORALE|Charisma|Grace|
+
 An ancestral morale ability that targets all opponents and raises your team's might and charisma.
 
 
@@ -246,6 +279,7 @@ An ancestral morale ability that targets all opponents and raises your team's mi
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |ANCESTRAL|PHYSICAL|Might, Charisma|Overpower|
+
 A powerful ancestral physical ability.
 
 
@@ -255,6 +289,7 @@ A powerful ancestral physical ability.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |ANCESTRAL|MORALE|Might, Charisma|Fear|
+
 A powerful ancestral morale ability.
 ### Passives
 
@@ -266,7 +301,7 @@ A powerful ancestral morale ability.
 |Wild Envoy: Start with an extra turn if there is a Nature disciple on your side.|Courage: Allied abilities gain might scaling for damage (same effect does not stack).|Might & Charisma Up: +5 Might and +5 Charisma|
 |Commander: +25% charisma every time another ally uses an overpower ability.|Tyrant: +25% might every time another ally uses a fear ability.|Might & Charisma Up: +5 Might and +5 Charisma|
 
-## Weaver
+## Weaver {#Weaver}
 
 * Available: GENERAL
 * Element: DARK
@@ -281,6 +316,7 @@ A powerful ancestral morale ability.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DARK|MORALE|Charisma|Overpower|
+
 Lesser dark morale ability that dazes the mind of the opponent for the whole sacrament.
 
 
@@ -290,6 +326,7 @@ Lesser dark morale ability that dazes the mind of the opponent for the whole sac
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DARK|MORALE|Charisma|Reason|
+
 Dark morale ability. More likely to hit.
 
 
@@ -299,6 +336,7 @@ Dark morale ability. More likely to hit.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DARK|MORALE|Knowledge|Sorcery, Fear|
+
 Dark morale ability with increased chance to crit.
 ### Passives
 
@@ -310,7 +348,7 @@ Dark morale ability with increased chance to crit.
 |Dazing Doom: Nightmare and Doom daze for 1 turn.|Foresight: Gain +50% of knowledge to initiative.|Knowledge & Charisma Up: +5 Knowledge and +5 Charisma|
 |Dreamweaver: +20% charisma and knowledge every time another ally uses a sorcery ability.|Whither: Cast Purple Haze in the first turn if there is an enemy nature disciple. Purple Haze deals Dark morale damage and dazes all opponents for one round.|Knowledge & Charisma Up: +5 Knowledge and +5 Charisma|
 
-## Zealot
+## Zealot {#Zealot}
 
 * Available: GENERAL
 * Element: DIVINE
@@ -325,6 +363,7 @@ Dark morale ability with increased chance to crit.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DIVINE|MORALE|Devotion|Grace|
+
 Lesser divine morale ability that raises the crit chance of all allies.
 
 
@@ -334,6 +373,7 @@ Lesser divine morale ability that raises the crit chance of all allies.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DIVINE|MORALE|Charisma|Fear|
+
 Divine morale ability.
 
 
@@ -343,6 +383,7 @@ Divine morale ability.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DIVINE|MORALE|Charisma|Reason|
+
 Lesser divine morale abilty that dazes the opponent for one round.
 ### Passives
 
@@ -354,7 +395,7 @@ Lesser divine morale abilty that dazes the opponent for one round.
 |Willpower: 40% of devotion added to critical argument chance.|Judge Ancestors: Chance to Follow up opponent ancestral abilities.|Charisma & Devotion Up: +5 Charisma and +5 Devotion|
 |Hell: +10% charisma for all allies whenever another ally uses a fear ability.|Forgiveness: +25% devotion every time another ally uses a grace ability.|Charisma & Devotion Up: +5 Charisma and +5 Devotion|
 
-## Druid
+## Druid {#Druid}
 
 * Available: GENERAL
 * Element: NATURE
@@ -369,6 +410,7 @@ Lesser divine morale abilty that dazes the opponent for one round.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |NATURE|MORALE|Devotion|Reason|
+
 Lesser nature morale ability that raises user's morale armor and chance to intercept morale for 2 rounds.
 
 
@@ -378,6 +420,7 @@ Lesser nature morale ability that raises user's morale armor and chance to inter
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |NATURE|MORALE|Knowledge|Grace|
+
 A nature morale ability.
 
 
@@ -387,6 +430,7 @@ A nature morale ability.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |NATURE|PHYSICAL|Knowledge|Sorcery|
+
 A nature physical ability that leaves the target hampered and unable to use some morale abilities.
 ### Passives
 
@@ -398,7 +442,7 @@ A nature physical ability that leaves the target hampered and unable to use some
 |Spell Combo: Chance to Entangle (physical ability) whenever another ally uses a sorcery abilty.|Skeptic: Druid's morale abilities gain extra morale armor scaling.|Knowledge & Devotion Up: +5 Knowledge and +5 Devotion|
 |Peacekeeper: Heal and convert every time another ally uses a reason ability. Scales on devotion.|Serenity: +25% knowledge every turn after the first.|Knowledge & Devotion Up: +5 Knowledge and +5 Devotion|
 
-## Songsmith
+## Songsmith {#Songsmith}
 
 * Available: GENERAL
 * Element: LIFE
@@ -413,6 +457,7 @@ A nature physical ability that leaves the target hampered and unable to use some
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |LIFE|MORALE|Charisma|Overpower|
+
 A Life morale ability that targets all opponents and heals your disciples.
 
 
@@ -422,6 +467,7 @@ A Life morale ability that targets all opponents and heals your disciples.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |LIFE|MORALE|Charisma|Reason|
+
 A strong Life morale ability that targets all opponents, but lowers your physical armor.
 
 
@@ -431,6 +477,7 @@ A strong Life morale ability that targets all opponents, but lowers your physica
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |LIFE|MORALE|Cunning|Grace|
+
 A Life morale ability that raises your team's cunning.
 ### Passives
 
@@ -442,7 +489,7 @@ A Life morale ability that raises your team's cunning.
 |Song: The songsmith's abilities gain +charisma scaling.|Dance of Faith: Follow up with an ally evades a physical attack.|Charisma & Cunning Up: +5 Charisma and +5 Cunning|
 |Mirage: +25% cunning whenever an ally uses a Sorcery ability.|Gloria: +25% charisma whenever an ally uses a Grace ability.|Charisma & Cunning Up: +5 Charisma and +5 Cunning|
 
-## Executioner
+## Executioner {#Executioner}
 
 * Available: WAR
 * Element: DARK
@@ -457,6 +504,7 @@ A Life morale ability that raises your team's cunning.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |ANCESTRAL|PHYSICAL|Health|Overpower|
+
 An ancestral physical ability that lowers the target's physical armor.
 
 
@@ -466,6 +514,7 @@ An ancestral physical ability that lowers the target's physical armor.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DARK|PHYSICAL|Might|Overpower, Fear|
+
 A Dark physical ability.
 
 
@@ -475,6 +524,7 @@ A Dark physical ability.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DARK|PHYSICAL|Might, Health|Sorcery|
+
 A Dark physical ability that targets all enemies.
 ### Passives
 
@@ -486,7 +536,7 @@ A Dark physical ability that targets all enemies.
 |Relentless: Small chance to act twice (only high faith).|Bully: Rend and War Reaper remove converted followers.|Might & Health Up: +5 Might and +5 Health|
 |Bloodbath: Chance to Follow up another ally's overpower ability.|Avatar of War: Chance to gain +25% might whenever another ally uses a fear ability.|Might & Health Up: +5 Might and +5 Health|
 
-## Ascetic
+## Ascetic {#Ascetic}
 
 * Available: PURITY
 * Element: DIVINE
@@ -501,6 +551,7 @@ A Dark physical ability that targets all enemies.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DIVINE|MORALE|Devotion|Fear, Reason|
+
 A divine morale ability replaces morale attacks with shame.
 
 
@@ -510,6 +561,7 @@ A divine morale ability replaces morale attacks with shame.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DIVINE|MORALE|Health, Devotion|Grace|
+
 A divine morale ability that decreases target's morale accuracy for one turn.
 
 
@@ -519,6 +571,7 @@ A divine morale ability that decreases target's morale accuracy for one turn.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DARK|PHYSICAL|Health|Overpower|
+
 A Dark physical ability that often goes for the weakest target.
 ### Passives
 
@@ -530,7 +583,7 @@ A Dark physical ability that often goes for the weakest target.
 |Focus: +10 defy for all allies.|Hardened: Abilities gain extra physical armor scaling.|Devotion & Health Up: +5 Devotion and +5 Health|
 |Chastising Vow: +20% health and devotion whenever another ally uses a fear ability.|Reproach: Always Follow up whenever an ally defies a morale attack.|Devotion & Health Up: +5 Devotion and +5 Health|
 
-## Cook
+## Cook {#Cook}
 
 * Available: GENEROSITY
 * Element: NATURE
@@ -545,6 +598,7 @@ A Dark physical ability that often goes for the weakest target.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |NATURE|MORALE|Knowledge|Reason|
+
 Small heal. Boosts both target's and own morale damage with +25%.
 
 
@@ -554,6 +608,7 @@ Small heal. Boosts both target's and own morale damage with +25%.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |NATURE|MORALE|Charisma, Knowledge|Sorcery|
+
 Potent morale ability, but also gives target +25% physical damage.
 
 
@@ -563,6 +618,7 @@ Potent morale ability, but also gives target +25% physical damage.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DIVINE|MORALE|Charisma|Grace|
+
 A Divine morale ability.
 ### Passives
 
@@ -574,7 +630,7 @@ A Divine morale ability.
 |Good Chief: +10 devotion. Resistance vs Divine|Force Feed: Counter with 'Miracle Bounty' when an enemy defies a morale attack.|Knowledge & Charisma Up: +5 Knowledge and +5 Charisma|
 |Generous Taste: All allies gain +25% base morale power whenever an ally uses a Grace ability.|Lively Feast: Sometimes gain +10% knowledge and charisma whenever another ally uses a Life ability.|Knowledge & Charisma Up: +5 Knowledge and +5 Charisma|
 
-## Ambassador
+## Ambassador {#Ambassador}
 
 * Available: PEACE
 * Element: ANCESTRAL
@@ -589,6 +645,7 @@ A Divine morale ability.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |ANCESTRAL|MORALE|Devotion|Reason, Grace|
+
 Heals disciples and raises their devotion and charisma.
 
 
@@ -598,6 +655,7 @@ Heals disciples and raises their devotion and charisma.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |ANCESTRAL|MORALE|Charisma|Reason|
+
 An Ancestral morale ability.
 
 
@@ -607,6 +665,7 @@ An Ancestral morale ability.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DIVINE|MORALE|Charisma|Sorcery|
+
 A Divine morale ability.
 ### Passives
 
@@ -618,7 +677,7 @@ A Divine morale ability.
 |Penetrating Word: Ambassador's morale attack is a lot harder to intercept morale.|Peace Envoy: Start with an extra turn if there is a Divine disciple on your side.|Charisma & Devotion Up: +5 Charisma and +5 Devotion|
 |Voice of Reason: +25% knowledge and charisma every time another ally uses a Reason ability.|Amazing Grace: Allied Grace abilities gain +2 devotion scaling for damage.|Charisma & Devotion Up: +5 Charisma and +5 Devotion|
 
-## Charlatan
+## Charlatan {#Charlatan}
 
 * Available: GREED
 * Element: LIFE
@@ -633,6 +692,7 @@ A Divine morale ability.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |ANCESTRAL|PHYSICAL|Cunning|Grace|
+
 An Ancestral physical ability that targets all opponents. Other allies are more likely to intercept physical for one turn.
 
 
@@ -642,6 +702,7 @@ An Ancestral physical ability that targets all opponents. Other allies are more 
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |LIFE|PHYSICAL|Cunning, Knowledge|Fear|
+
 Strong Life physical ability. Scales on both Cunning and Knowledge.
 
 
@@ -651,6 +712,7 @@ Strong Life physical ability. Scales on both Cunning and Knowledge.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |LIFE|MORALE|Knowledge|Reason|
+
 A Life morale ability that steals materials.
 ### Passives
 
@@ -662,7 +724,7 @@ A Life morale ability that steals materials.
 |Thievery: All abilities steal material equal to 25% of the damage dealt.|Greedy Heart: +10 critical hit and argument chance. crits do +25% damage if the charlatan has less than 50% HP left. Resistance vs Dark|Knowledge & Cunning Up: +5 Knowledge and +5 Cunning|
 |Con Artist: +20% knowledge and charisma every time another ally uses a Reason ability.|Razzle Dazzle: +25% cunning every time another ally uses a Sorcery ability.|Knowledge & Cunning Up: +5 Knowledge and +5 Cunning|
 
-## Lust Priest
+## Lust Priest {#Lust-Priest}
 
 * Available: PLEASURE
 * Element: NATURE
@@ -677,6 +739,7 @@ A Life morale ability that steals materials.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |NATURE|MORALE|Charisma, Cunning|Grace, Sorcery|
+
 A Nature morale ability that targets all opponents. Scales with both Charisma and Cunning.
 
 
@@ -686,6 +749,7 @@ A Nature morale ability that targets all opponents. Scales with both Charisma an
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |NATURE|MORALE|Charisma|Grace|
+
 A Nature morale ability that inflicts the infatuated debuff
 
 
@@ -695,6 +759,7 @@ A Nature morale ability that inflicts the infatuated debuff
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |LIFE|PHYSICAL|Cunning|Overpower|
+
 A Life physical ability with higher crit chance.
 ### Passives
 
@@ -706,7 +771,7 @@ A Life physical ability with higher crit chance.
 |Sensuality: Allied Grace and Sorcery abilities have 25% chance of inflicting Infatuated debuff|Flexible: +15 evasion, +15 defy|Charisma & Cunning Up: +5 Charisma and +5 Cunning|
 |Beguile: Steal converts when an ally Evades a physical attack. Steal is Life and Charisma based.|Bacchanalia: In sacrament: +1 charisma and cunning for each 5 charisma in your team before the start of the Sacrament|Charisma & Cunning Up: +5 Charisma and +5 Cunning|
 
-## Cultist
+## Cultist {#Cultist}
 
 * Available: MADNESS
 * Element: DARK
@@ -721,6 +786,7 @@ A Life physical ability with higher crit chance.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DARK|MORALE|Might, Knowledge|Sorcery|
+
 Potent morale ability that scales on both might and knowledge.
 
 
@@ -730,6 +796,7 @@ Potent morale ability that scales on both might and knowledge.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |DARK|MORALE|Knowledge|Fear|
+
 A Dark morale ability that makes opponent converts doubt back to Neutral.
 
 
@@ -739,6 +806,7 @@ A Dark morale ability that makes opponent converts doubt back to Neutral.
 |Element|Type|Stats|Style|
 |---|---|---|---|
 |NATURE|PHYSICAL|Might|Overpower, Sorcery|
+
 A Nature physical ability that lowers cunning.
 ### Passives
 
