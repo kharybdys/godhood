@@ -1,0 +1,2721 @@
+{
+  "tenets": [
+    {
+      "name": "Adore Llamas",
+      "type": "ADORATION",
+      "color": "YELLOW",
+      "events": [
+        "+3 might",
+        "+materials based on might (1x)"
+      ],
+      "tradition_names": [
+        "Grand Abberation",
+        "Hermit Pilgrimage"
+      ]
+    },
+    {
+      "name": "Blood Offer",
+      "type": "ADORATION",
+      "color": "PURPLE",
+      "tradition_names": [
+        "Human Sacrifice",
+        "Grand Abberation"
+      ]
+    },
+    {
+      "name": "Blood Sport",
+      "type": "ADORATION",
+      "color": "RED",
+      "events": [
+        "+1 tribute chests for one mission"
+      ],
+      "tradition_names": [
+        "War Slaves",
+        "Martial Arts"
+      ]
+    },
+    {
+      "name": "Choir Music",
+      "type": "ADORATION",
+      "color": "CYAN",
+      "events": [
+        "+offerings based on charisma (x1)"
+      ],
+      "tradition_names": [
+        "Turn the Other Cheek",
+        "Burials"
+      ]
+    },
+    {
+      "name": "Holy Training",
+      "type": "ADORATION",
+      "color": "RED",
+      "events": [
+        "+50% materials from tribute chests for 1 mission",
+        "+2 might"
+      ],
+      "tradition_names": [
+        "Might Makes Right",
+        "Champion of God"
+      ]
+    },
+    {
+      "name": "Indulgences",
+      "type": "ADORATION",
+      "color": "YELLOW",
+      "events": [
+        "+1 knowledge, +1 charisma",
+        "+materials based on knowledge (x1)"
+      ],
+      "tradition_names": [
+        "Bribery",
+        "Doom Prophecy"
+      ]
+    },
+    {
+      "name": "Incense and Rose Petals",
+      "type": "ADORATION",
+      "color": "PINK",
+      "tradition_names": [
+        "Alchemy",
+        "Idol"
+      ]
+    },
+    {
+      "name": "Meditation",
+      "type": "ADORATION",
+      "color": "BLUE",
+      "events": [
+        "+offerings based on knowledge (x0.5)"
+      ],
+      "tradition_names": [
+        "Animism",
+        "Hermit Pilgrimage"
+      ]
+    },
+    {
+      "name": "Meal Prayer",
+      "type": "ADORATION",
+      "color": "YELLOW",
+      "events": [
+        "+1 might",
+        "-25% physical stats for one mission"
+      ],
+      "blocks": [
+        "Morning Prayer",
+        "Night Prayer",
+        "Meal Prayer"
+      ],
+      "tradition_names": [
+        "Cannibalism",
+        "Community Elder"
+      ]
+    },
+    {
+      "name": "Morning Prayer",
+      "type": "ADORATION",
+      "color": "RED",
+      "blocks": [
+        "Morning Prayer",
+        "Night Prayer",
+        "Meal Prayer"
+      ],
+      "events": [
+        "+1 devotion",
+        "+materials based on power (x0.5)",
+        "temporary -5 faith for all disciples"
+      ],
+      "tradition_names": [
+        "Holy Marriage",
+        "Just New World"
+      ]
+    },
+    {
+      "name": "Mutilate Heretics",
+      "type": "ADORATION",
+      "color": "PURPLE",
+      "events": [
+        "+25 Faith",
+        "+followers based on knowledge (2x)",
+        "-2 fervor"
+      ],
+      "tradition_names": [
+        "Idol",
+        "Doom Prophecy"
+      ]
+    },
+    {
+      "name": "Night Prayer",
+      "type": "ADORATION",
+      "color": "BLUE",
+      "blocks": [
+        "Morning Prayer",
+        "Night Prayer",
+        "Meal Prayer"
+      ],
+      "tradition_names": [
+        "Ecstatic Salvation",
+        "Burials"
+      ]
+    },
+    {
+      "name": "Oiled Prayer",
+      "type": "ADORATION",
+      "color": "YELLOW",
+      "tradition_names": [
+        "Idol",
+        "Cannibalism"
+      ]
+    },
+    {
+      "name": "Offer Food",
+      "type": "ADORATION",
+      "color": "GREEN",
+      "events": [
+        "+1 might, +1 health"
+      ],
+      "tradition_names": [
+        "Trade Missions",
+        "Just New World"
+      ]
+    },
+    {
+      "name": "Offer Gold",
+      "type": "ADORATION",
+      "color": "YELLOW",
+      "events": [
+        "+materials based on power (x0.5)",
+        "+1 might, +1 tribute chest for one mission"
+      ],
+      "tradition_names": [
+        "Alchemy",
+        "God of Thieves"
+      ]
+    },
+    {
+      "name": "Religious Poetry",
+      "type": "ADORATION",
+      "color": "LIGHT_GREEN",
+      "tradition_names": [
+        "Heavenly Art",
+        "Just New World"
+      ]
+    },
+    {
+      "name": "Ritual Cleaning",
+      "type": "ADORATION",
+      "color": "BLUE",
+      "tradition_names": [
+        "Baptism",
+        "Hermit Pilgrimage"
+      ]
+    },
+    {
+      "name": "Singing Circles",
+      "type": "ADORATION",
+      "color": "BLUE",
+      "events": [
+        "+1 charisma, +1 knowledge"
+      ],
+      "tradition_names": [
+        "Community Elder",
+        "Baptism"
+      ]
+    },
+    {
+      "name": "Study Scriptures",
+      "type": "ADORATION",
+      "color": "CYAN",
+      "events": [
+        "+50% offerings from tribute chests for 1 mission",
+        "+1 charisma, +1 knowledge"
+      ],
+      "tradition_names": [
+        "School of Philosophy",
+        "Holy Judge"
+      ]
+    },
+    {
+      "name": "Venerate Dogs",
+      "type": "ADORATION",
+      "color": "YELLOW",
+      "events": [
+        "+materials based on health (1x)",
+        "+5 faith"
+      ],
+      "tradition_names": [
+        "Community Elder",
+        "Champion of God"
+      ]
+    },
+    {
+      "name": "Worship Cats",
+      "type": "ADORATION",
+      "color": "YELLOW",
+      "events": [
+        "+2 cunning for 3 disciples",
+        "+offerings based on cunning (x1)"
+      ],
+      "tradition_names": [
+        "God of Thieves",
+        "Animism"
+      ]
+    },
+    {
+      "name": "Nature & Animal Dedication",
+      "type": "ADORATION",
+      "color": "YELLOW",
+      "blocks": [
+        "Nature & Animal Dedication",
+        "Symbolic Dedication",
+        "Celestial Dedication",
+        "Dark Dedication"
+      ],
+      "tradition_names": []
+    },
+    {
+      "name": "Symbolic Dedication",
+      "type": "ADORATION",
+      "color": "BLUE",
+      "blocks": [
+        "Nature & Animal Dedication",
+        "Symbolic Dedication",
+        "Celestial Dedication",
+        "Dark Dedication"
+      ],
+      "tradition_names": []
+    },
+    {
+      "name": "Celestial Dedication",
+      "type": "ADORATION",
+      "color": "CYAN",
+      "blocks": [
+        "Nature & Animal Dedication",
+        "Symbolic Dedication",
+        "Celestial Dedication",
+        "Dark Dedication"
+      ],
+      "tradition_names": []
+    },
+    {
+      "name": "Dark Dedication",
+      "type": "ADORATION",
+      "color": "RED",
+      "events": [
+        "+100% materials from tribute chests for 2 missions",
+        "-50% offerings from tribute chests for one mission"
+      ],
+      "blocks": [
+        "Nature & Animal Dedication",
+        "Symbolic Dedication",
+        "Celestial Dedication",
+        "Dark Dedication"
+      ],
+      "tradition_names": []
+    },
+    {
+      "name": "Vow of Chastity",
+      "type": "ADORATION",
+      "color": "GREY",
+      "tradition_names": [
+        "Holy Marriage",
+        "Hermit Pilgrimage"
+      ]
+    },
+    {
+      "name": "Approve Appropriation",
+      "type": "SOCIAL",
+      "color": "YELLOW",
+      "events": [
+        "+1 might, +2 cunning",
+        "+50% materials from tribute chests for one mission"
+      ],
+      "tradition_names": [
+        "War Slaves",
+        "God of Thieves"
+      ]
+    },
+    {
+      "name": "Arranged Marriages",
+      "type": "SOCIAL",
+      "color": "YELLOW",
+      "blocks": [
+        "Arranged Marriages",
+        "Love Marriages"
+      ],
+      "events": [
+        "+2 knowledge, +100% materials from tribute chests for 1 mission",
+        "+materials based on power (0.5x)"
+      ],
+      "tradition_names": [
+        "Bribery",
+        "Holy Marriage"
+      ]
+    },
+    {
+      "name": "Arts Patronage",
+      "type": "SOCIAL",
+      "color": "YELLOW",
+      "tradition_names": [
+        "Heavenly Art",
+        "Trade Missions"
+      ]
+    },
+    {
+      "name": "Festive Debauchery",
+      "type": "SOCIAL",
+      "color": "PINK",
+      "events": [
+        "+offerings based on cunning (1x)",
+        "+1 cunning, +1 might",
+        "-25% mental stats for one mission"
+      ],
+      "tradition_names": [
+        "Carnival",
+        "Human Sacrifice"
+      ]
+    },
+    {
+      "name": "Holy Raid",
+      "type": "SOCIAL",
+      "color": "RED",
+      "tradition_names": [
+        "War Slaves",
+        "Human Sacrifice"
+      ]
+    },
+    {
+      "name": "Joyful Sermons",
+      "type": "SOCIAL",
+      "color": "ORANGE",
+      "blocks": [
+        "Joyful Sermons",
+        "Stern Sermons"
+      ],
+      "tradition_names": [
+        "Carnival",
+        "Reincarnation"
+      ]
+    },
+    {
+      "name": "Love Marriages",
+      "type": "SOCIAL",
+      "color": "BLUE",
+      "blocks": [
+        "Arranged Marriages",
+        "Love Marriages"
+      ],
+      "tradition_names": [
+        "Holy Marriage",
+        "Burials"
+      ]
+    },
+    {
+      "name": "Lover's Day",
+      "type": "SOCIAL",
+      "color": "PINK",
+      "tradition_names": [
+        "Ecstatic Salvation",
+        "Carnival"
+      ]
+    },
+    {
+      "name": "Master Order",
+      "type": "SOCIAL",
+      "color": "PURPLE",
+      "events": [
+        "+1 tribute chests for one mission",
+        "+1 charisma, +2 might, -2 faith"
+      ],
+      "tradition_names": [
+        "Cult of Silence",
+        "Brainwashing"
+      ]
+    },
+    {
+      "name": "Official Greeting",
+      "type": "SOCIAL",
+      "color": "YELLOW",
+      "events": [
+        "+materials based on health (x0.5)",
+        "+1 cunning"
+      ],
+      "tradition_names": [
+        "Might Makes Right",
+        "Burials"
+      ]
+    },
+    {
+      "name": "Order of Monks",
+      "type": "SOCIAL",
+      "color": "BLUE",
+      "events": [
+        "+1 knowledge"
+      ],
+      "tradition_names": [
+        "Baptism",
+        "Monastery of Miracles"
+      ]
+    },
+    {
+      "name": "Order of Paladins",
+      "type": "SOCIAL",
+      "color": "YELLOW",
+      "tradition_names": [
+        "Champion of God",
+        "Martial Arts"
+      ]
+    },
+    {
+      "name": "Order of Priests",
+      "type": "SOCIAL",
+      "color": "BLUE",
+      "events": [
+        "+1 devotion, +1 knowledge",
+        "+2 knowledge",
+        "-50% materials from tribute chests for one mission"
+      ],
+      "tradition_names": [
+        "Bribery",
+        "Holy Judge"
+      ]
+    },
+    {
+      "name": "Organize Debates",
+      "type": "SOCIAL",
+      "color": "CYAN",
+      "events": [
+        "+1 development spark",
+        "+2 knowledge for two disciples"
+      ],
+      "tradition_names": [
+        "Alchemy",
+        "Community Elder"
+      ]
+    },
+    {
+      "name": "Peaceful Protests",
+      "type": "SOCIAL",
+      "color": "YELLOW",
+      "events": [
+        "+2 devotion",
+        "+50% offerings from tribute chests for one mission"
+      ],
+      "tradition_names": [
+        "Holy Judge",
+        "Turn the Other Cheek"
+      ]
+    },
+    {
+      "name": "Prosperity Gospel",
+      "type": "SOCIAL",
+      "color": "YELLOW",
+      "tradition_names": [
+        "Brainwashing",
+        "God of Thieves"
+      ]
+    },
+    {
+      "name": "Secret Society",
+      "type": "SOCIAL",
+      "color": "PURPLE",
+      "tradition_names": [
+        "Monastery of Miracles",
+        "Cult of Silence"
+      ]
+    },
+    {
+      "name": "Shelters",
+      "type": "SOCIAL",
+      "color": "LIGHT_GREEN",
+      "events": [
+        "+2 charisma"
+      ],
+      "tradition_names": [
+        "Community Elder",
+        "Just New World"
+      ]
+    },
+    {
+      "name": "Stern Sermons",
+      "type": "SOCIAL",
+      "color": "CYAN",
+      "events": [
+        "+1 devotion",
+        "+50% materials from tribute chests for one mission"
+      ],
+      "blocks": [
+        "Joyful Sermons",
+        "Stern Sermons"
+      ],
+      "tradition_names": [
+        "Holy Judge",
+        "Doom Prophecy"
+      ]
+    },
+    {
+      "name": "Barbarism",
+      "type": "PHILOSOPHY",
+      "color": "RED",
+      "blocks": [
+        "Barbarism",
+        "Code of Honor"
+      ],
+      "events": [
+        "+offerings based on might (x2)",
+        "+1 health, +1 might"
+      ],
+      "tradition_names": [
+        "God of Thieves",
+        "Cannibalism"
+      ]
+    },
+    {
+      "name": "Capital",
+      "type": "PHILOSOPHY",
+      "color": "YELLOW",
+      "events": [
+        "+2 charisma, +2 knowledge",
+        "+1 tribute chests for one mission"
+      ],
+      "tradition_names": [
+        "Bribery",
+        "Trade Missions"
+      ]
+    },
+    {
+      "name": "Code of Honor",
+      "type": "PHILOSOPHY",
+      "color": "RED",
+      "blocks": [
+        "Barbarism",
+        "Code of Honor"
+      ],
+      "events": [
+        "+1 charisma, +2 health",
+        "+50% materials from tribute chests for one mission"
+      ],
+      "tradition_names": [
+        "Champion of God",
+        "Just New World"
+      ]
+    },
+    {
+      "name": "Evil Deity",
+      "type": "PHILOSOPHY",
+      "color": "PURPLE",
+      "events": [
+        "+2 might, +1 health",
+        "-followers based on power (x1)",
+        "+25 offerings"
+      ],
+      "tradition_names": [
+        "Grand Abberation",
+        "Doom Prophecy"
+      ]
+    },
+    {
+      "name": "Free Speech",
+      "type": "PHILOSOPHY",
+      "color": "CYAN",
+      "events": [
+        "+1 spark",
+        "2 knowledge, +offerings based on knowledge (x0.5)"
+      ],
+      "tradition_names": [
+        "Ecstatic Salvation",
+        "School of Philosophy"
+      ]
+    },
+    {
+      "name": "Heaven",
+      "type": "PHILOSOPHY",
+      "color": "YELLOW",
+      "events": [
+        "+followers based on devotion (x2)",
+        "+1 charisma, +1 might, +1 devotion",
+        "+3 devotion",
+        "-5 faith one disciple"
+      ],
+      "tradition_names": [
+        "Revelations",
+        "Heavenly Art"
+      ]
+    },
+    {
+      "name": "Hell",
+      "type": "PHILOSOPHY",
+      "color": "RED",
+      "events": [
+        "+followers based on cunning (x2)",
+        "+1 cunning for 3 disciples"
+      ],
+      "tradition_names": [
+        "War Slaves",
+        "Grand Abberation"
+      ]
+    },
+    {
+      "name": "Naturism",
+      "type": "PHILOSOPHY",
+      "color": "GREEN",
+      "events": [
+        "+1 tribute chests for one mission",
+        "+1 devotion, +1 knowledge"
+      ],
+      "tradition_names": [
+        "Heavenly Art",
+        "Animism"
+      ]
+    },
+    {
+      "name": "No Pain, No Gain",
+      "type": "PHILOSOPHY",
+      "color": "RED",
+      "events": [
+        "+2 knowledge",
+        "+4 health, +2 devotion, -1 fervor"
+      ],
+      "tradition_names": [
+        "Martial Arts",
+        "Reincarnation"
+      ]
+    },
+    {
+      "name": "Power of the Market",
+      "type": "PHILOSOPHY",
+      "color": "YELLOW",
+      "events": [
+        "+2 tribute chests for one mission",
+        "+1 knowledge, +10 faith"
+      ],
+      "tradition_names": [
+        "School of Philosophy",
+        "Trade Missions"
+      ]
+    },
+    {
+      "name": "Promote Virginity",
+      "type": "PHILOSOPHY",
+      "color": "BLUE",
+      "events": [
+        "+2 devotion",
+        "+offerings based on devotion (1x)"
+      ],
+      "tradition_names": [
+        "Monastery of Miracles",
+        "Human Sacrifice"
+      ]
+    },
+    {
+      "name": "Rain Deity",
+      "type": "PHILOSOPHY",
+      "color": "CYAN",
+      "events": [
+        "+2 knowledge",
+        "-50% materials from tribute chests for one mission",
+        "+offerings based on might (x0.5)"
+      ],
+      "blocks": [
+        "Sea Deity",
+        "Rain Deity",
+        "Sun Deity"
+      ],
+      "tradition_names": [
+        "Baptism",
+        "Animism"
+      ]
+    },
+    {
+      "name": "Reclusion",
+      "type": "PHILOSOPHY",
+      "color": "CYAN",
+      "events": [
+        "+2 might, +2 devotion",
+        "+1 tribute chest in 1 mission"
+      ],
+      "tradition_names": [
+        "Monastery of Miracles",
+        "Hermit Pilgrimage"
+      ]
+    },
+    {
+      "name": "Sabbath",
+      "type": "PHILOSOPHY",
+      "color": "CYAN",
+      "events": [
+        "+1 tribute chest in 1 mission",
+        "+1 devotion, +1 charisma, +5 faith"
+      ],
+      "tradition_names": [
+        "Turn the Other Cheek",
+        "Reincarnation"
+      ]
+    },
+    {
+      "name": "Sea Deity",
+      "type": "PHILOSOPHY",
+      "color": "BLUE",
+      "blocks": [
+        "Sea Deity",
+        "Rain Deity",
+        "Sun Deity"
+      ],
+      "tradition_names": [
+        "Doom Prophecy",
+        "Human Sacrifice"
+      ]
+    },
+    {
+      "name": "Smoking Truth-leaves",
+      "type": "PHILOSOPHY",
+      "color": "PINK",
+      "events": [
+        "+2 dream points",
+        "all disciples +1 knowledge"
+      ],
+      "tradition_names": [
+        "Revelations",
+        "Animism"
+      ]
+    },
+    {
+      "name": "Summoning",
+      "type": "PHILOSOPHY",
+      "color": "PURPLE",
+      "events": [
+        "+1 development spark"
+      ],
+      "tradition_names": [
+        "Cult of Silence",
+        "Grand Abberation"
+      ]
+    },
+    {
+      "name": "Sun Deity",
+      "type": "PHILOSOPHY",
+      "color": "LIGHT_GREEN",
+      "events": [
+        "+1 might",
+        "+1 tribute chest on 1 mission",
+        "-50% offerings from tribute chests for 1 mission"
+      ],
+      "blocks": [
+        "Sea Deity",
+        "Rain Deity",
+        "Sun Deity"
+      ],
+      "tradition_names": [
+        "Human Sacrifice",
+        "Turn the Other Cheek"
+      ]
+    },
+    {
+      "name": "Teamwork",
+      "type": "PHILOSOPHY",
+      "color": "GREEN",
+      "tradition_names": [
+        "Community Elder",
+        "Turn the Other Cheek"
+      ]
+    },
+    {
+      "name": "Zero Commitment",
+      "type": "PHILOSOPHY",
+      "color": "PINK",
+      "events": [
+        "+-1 devotion, +3 charisma",
+        "+2 fervor",
+        "-25% materials from tribute chests for one mission"
+      ],
+      "tradition_names": [
+        "Idol",
+        "Carnival"
+      ]
+    }
+  ],
+  "traditions": [
+    {
+      "name": "Generosity",
+      "color": "LIGHT_GREEN",
+      "effect": [
+        "Starting rituals: Charisma, Devotion, Knowledge, Health.",
+        "Class: Cook (Nature, Charisma & Knowledge)",
+        "Fire Heart (Relic): 50% charisma to physical armor. Unlocks Zealot (Divine) and Songsmith (Life).",
+        "Godly Recipe (Relic): 100% knowledge to faith (up to 100). Unlocks Druid (Nature) and Harbinger (Dark)."
+      ],
+      "category": "STARTING",
+      "comment": "Shares Worship Cats with Pleasure and Madness. Shares Joyful Sermons with Peace and Pleasure.",
+      "tenet_names": [
+        "Offer Food",
+        "Religious Poetry",
+        "Venerate Dogs",
+        "Worship Cats",
+        "Joyful Sermons",
+        "Shelters",
+        "Naturism",
+        "Sun Deity"
+      ]
+    },
+    {
+      "name": "Peace",
+      "color": "CYAN",
+      "effect": [
+        "Starting rituals: Charisma, Devotion, Knowledge, Health.",
+        "Class: Ambassador (Ancestral, Charisma & Devotion)",
+        "Halo (Relic): +1 xp per mission per 20 points of morale armor. Unlocks Druid (Nature) and Zealot (Divine)",
+        "The First Word (Relic): 50% of charisma to initiative. Unlocks Weaver (Dark) and Songsmith (Life)"
+      ],
+      "category": "STARTING",
+      "comment": "Shares Joyful Sermons with Generosity and Pleasure.",
+      "events": [
+        "-50% offerings from tribute chests for one mission"
+      ],
+      "tenet_names": [
+        "Heaven",
+        "Sabbath",
+        "Joyful Sermons",
+        "Organize Debates",
+        "Morning Prayer",
+        "Study Scriptures"
+      ]
+    },
+    {
+      "name": "War",
+      "color": "RED",
+      "effect": [
+        "Starting rituals: Might, Health, Cunning, Devotion.",
+        "Class: Executioner (Dark, Might & Health)",
+        "Voice Thresher (Relic): Might abilities give the opponent a chance to stumble on their words and lose converts. Unlocks Beast Walker (Nature) and Chieftain (Ancestral).",
+        "Eternal Shield (Relic): Abilities gain +1 evasion scaling. Unlocks Guardian (Life) and Rage Prophet (Ancestral)."
+      ],
+      "category": "STARTING",
+      "comment": "Shares Official Greeting with Greed. Shares No Pain, No Gain with Purity.",
+      "events": [
+        "-50% materials from tribute chests for 1 mission",
+        "-followers by might (x2)",
+        "-25% physical stats for one mission"
+      ],
+      "tenet_names": [
+        "Blood Sport",
+        "Holy Training",
+        "Holy Raid",
+        "Official Greeting",
+        "No Pain, No Gain",
+        "Barbarism",
+        "Code of Honor"
+      ]
+    },
+    {
+      "name": "Purity",
+      "color": "BLUE",
+      "effect": [
+        "Starting rituals: Might, Health, Devotion, Knowledge.",
+        "Class: Ascetic (Divine, Health & Devotion)",
+        "Holy Water (Relic): In the third round, one of your disciples uses an AoE morale ability that scales with the devotion of the entire team. Unlocks Druid (Nature) and Zealot (Divine).",
+        "Cleansing Apple (Relic): 50% of health to defy. Unlocks Guardian (Life) and Harbinger (Dark)."
+      ],
+      "category": "STARTING",
+      "comment": "Shares Stern Sermons with Madness. Shares No Pain, No Gain with War.",
+      "tenet_names": [
+        "No Pain, No Gain",
+        "Promote Virginity",
+        "Rain Deity",
+        "Love Marriages",
+        "Arranged Marriages",
+        "Stern Sermons",
+        "Meditation"
+      ]
+    },
+    {
+      "name": "Greed",
+      "color": "YELLOW",
+      "effect": [
+        "Starting rituals: Might, Cunning, Devotion, Knowledge.",
+        "Class: Charlatan (Life, Cunning & Knowledge)",
+        "Golden Mask (Relic): Cunning abilities have +20 accuracy and deal +100% damage on crits. Unlocks Beastwalker (Nature) and Guardian (Life).",
+        "Idol of Greed (Relic): +1 ability point when knowledge goes rank up (not F to E). Unlocks Weaver (Dark) and Druid (Nature)"
+      ],
+      "category": "STARTING",
+      "comment": "Shares Meal Prayer with Madness. Shares Official Greeting with War.",
+      "events": [
+        "-25% on all mental stats for one mission, temporary -10 faith",
+        "-50% offerings from tribute chests for one mission",
+        "-50% materials from tribute chests for one mission"
+      ],
+      "tenet_names": [
+        "Hell",
+        "Power of the Market",
+        "Approve Appropriation",
+        "Official Greeting",
+        "Meal Prayer",
+        "Offer Gold"
+      ]
+    },
+    {
+      "name": "Pleasure",
+      "color": "PINK",
+      "effect": [
+        "Starting rituals: Charisma, Devotion, Knowledge, Health.",
+        "Class: Lust Priest (Nature, Charisma & Cunning)",
+        "Anklet of Joy (Relic): Abilities gain +1 Evasion scaling. Unlocks Beastwalker (Nature) and Songsmith (Life).",
+        "Holy Rose (Relic): Charisma abilities have 33% chance to Infatuate target for 2 rounds. Unlocks Weaver (Dark) and Chieftain (Ancestral)."
+      ],
+      "category": "STARTING",
+      "comment": "Shares Worship Cats with Generosity and Madness. Shares Joyful Sermons with Generosity and Peace.",
+      "tenet_names": [
+        "Smoking Truth-leaves",
+        "Zero Commitment",
+        "Festive Debauchery",
+        "Joyful Sermons",
+        "Oiled Prayer",
+        "Night Prayer",
+        "Worship Cats"
+      ]
+    },
+    {
+      "name": "Madness",
+      "color": "PURPLE",
+      "effect": [
+        "Starting rituals: Charisma, Devotion, Knowledge, Health.",
+        "Class: Cultist (Dark, Might & Knowledge).",
+        "Sacred Infant (Relic): 50% of Might to crit chances. Unlocks Beast Walker (Nature) and Chieftain (Ancestral).",
+        "Secret Pyramid (Relic): Knowledge abilities make enemies Mad for 2 rounds, increasing chance to intercept badly and 1 Clouded Thought. Unlocks Weaver (Dark) and Druid (Nature)."
+      ],
+      "category": "STARTING",
+      "comment": "Shares Worship Cats with Generosity and Pleasure. Shares Stern Sermons with Purity. Shares Meal Prayer with Greed.",
+      "tenet_names": [
+        "Evil Deity",
+        "Sea Deity",
+        "Reclusion",
+        "Secret Society",
+        "Stern Sermons",
+        "Adore Llamas",
+        "Blood Offer",
+        "Meal Prayer",
+        "Mutilate Heretics",
+        "Worship Cats"
+      ]
+    },
+    {
+      "name": "Brainwashing",
+      "color": "PURPLE",
+      "effect": [
+        "Passive: Gain 1/2 extra tribute chests if disciples have 3/8 overpower abilities.",
+        "Action: Brainwash. Cost 200 (increases), cooldown 6, Gain 2 extra tribute chests next mission. All future disciplines gain +5 faith and -2 knowledge"
+      ],
+      "category": "ECONOMY_SUPER",
+      "tenet_names": [
+        "Evil Deity",
+        "Summoning",
+        "Master Order",
+        "Order of Priests",
+        "Prosperity Gospel",
+        "Indulgences"
+      ]
+    },
+    {
+      "name": "Human Sacrifice",
+      "color": "RED",
+      "effect": [
+        "Action: Choose Master of Sacrifice. Cost 100. Can learn morale Ancestral ability that scales on might and lowers physical armor (Fear).",
+        "Action: Human Sacrifice. Cost: 50, cooldown 4. If participating: +1/2/4 Tribute Chests if you have 1/3/6 Ancestral and Divine disciples."
+      ],
+      "category": "ECONOMY_SUPER",
+      "tenet_names": [
+        "No Pain, No Gain",
+        "Promote Virginity",
+        "Sea Deity",
+        "Blood Offer",
+        "Blood Sport",
+        "Mutilate Heretics",
+        "Festive Debauchery"
+      ]
+    },
+    {
+      "name": "Grand Abberation",
+      "color": "PURPLE",
+      "effect": [
+        "Action: Choose Grand Summoner. Cost 0. Can learn Nature physical AoE that scales on might and has a chance to stun (Overpower, Sorcery).",
+        "Action: The Great Summoning. Cost 50, cooldown 4. If participating, +1/2/4 Tribute Chests if you have 1/3/6 Dark and Nature disciples."
+      ],
+      "category": "ECONOMY_SUPER",
+      "tenet_names": [
+        "Adore Llamas",
+        "Offer Gold",
+        "Study Scriptures",
+        "Holy Raid",
+        "Stern Sermons",
+        "Evil Deity",
+        "No Pain, No Gain",
+        "Zero Commitment",
+        "Summoning"
+      ]
+    },
+    {
+      "name": "Community Elder",
+      "color": "LIGHT_GREEN",
+      "effect": [
+        "Action: Assign Community Elder. Cost 0. If participating +1 Tribute Chest, and +1 Tribute Chest if highest Charisma or Knowledge. -5 Faith each mission.",
+        "Action: Community Meeting. Cost 0, cooldown 4. All disciples +10 Morale Armor for 1 mission. +1 Happiness"
+      ],
+      "category": "ECONOMY_SUPER",
+      "tenet_names": [
+        "Naturism",
+        "Rain Deity",
+        "Smoking Truth-leaves",
+        "Teamwork",
+        "Organize Debates",
+        "Prosperity Gospel",
+        "Shelters",
+        "Venerate Dogs"
+      ]
+    },
+    {
+      "name": "Carnival",
+      "color": "ORANGE",
+      "effect": [
+        "Action: Carnival. Cost 200, cooldown 4. 3 random disciples develop 1x Charisma, but can also gain temporary debuff. +1 Happiness. -2 Faith"
+      ],
+      "category": "ECONOMY_SUPER",
+      "tenet_names": [
+        "Barbarism",
+        "Zero Commitment",
+        "Approve Appropriation",
+        "Festive Debauchery",
+        "Lover's Day",
+        "Singing Circles"
+      ]
+    },
+    {
+      "name": "Turn the Other Cheek",
+      "color": "CYAN",
+      "effect": [
+        "Passive: All physical abilities that convert by something other than Grace get replaced by Devout(++), a moral ability that scales by Devotion.",
+        "Action: Glory of Grace. Cost 50, cooldown 4. +1/2/3/4 Tribute Chests if you start the next mission with 0/3/7/12 Grace abilities."
+      ],
+      "category": "ECONOMY_SUPER",
+      "tenet_names": [
+        "Power of the Market",
+        "Sabbath",
+        "Sun Deity",
+        "Peaceful Protests",
+        "Choir Music",
+        "Incense and Rose Petals",
+        "Singing Circles"
+      ]
+    },
+    {
+      "name": "Might Makes Right",
+      "color": "RED",
+      "effect": [
+        "Passive: Disciple with highest might gains 40 faith. 3 disciples with lowest might lose 2 faith.",
+        "Action: Impose right. Cost 0, cooldown 4. Disciple with highest might gains +3 tribute chests for next mission. Weakest 3 disciples gain -3 faith."
+      ],
+      "category": "ECONOMY_SUPER",
+      "tenet_names": [
+        "Barbarism",
+        "No Pain, No Gain",
+        "Sea Deity",
+        "Zero Commitment",
+        "Approve Appropriation",
+        "Holy Raid",
+        "Master Order",
+        "Blood Sport",
+        "Holy Training"
+      ]
+    },
+    {
+      "name": "God of Thieves",
+      "color": "YELLOW",
+      "effect": [
+        "Action: Steal chests. Cost 25, cooldown 2. Choose a disciple. Unavailable for 1 mission and loses 1 fervor. +1/2/4 Tribute chests if disciple has rank D/C/A Cunning."
+      ],
+      "category": "ECONOMY_SUPER",
+      "tenet_names": [
+        "Approve Appropriation",
+        "Holy Raid",
+        "Secret Society",
+        "Venerate Dogs",
+        "Worship Cats",
+        "Offer Gold",
+        "Indulgences",
+        "Oiled Prayer"
+      ]
+    },
+    {
+      "name": "Monastery of Miracles",
+      "color": "BLUE",
+      "effect": [
+        "Passive: All Sorcery abilities give the target -15 Accuracy for two rounds.",
+        "Action: Humbling Augury. Cost 25, cooldown 1. Target disciple with lowest power. +5 Faith. If participating, +1 Tribute Chest. Cannot receive Broken Faith status and do not lose converts when broken."
+      ],
+      "category": "ECONOMY_SUPER",
+      "tenet_names": [
+        "Reclusion",
+        "Summoning",
+        "Order of Monks",
+        "Shelters",
+        "Choir Music",
+        "Morning Prayer",
+        "Meditation"
+      ]
+    },
+    {
+      "name": "Cult of Silence",
+      "color": "PURPLE",
+      "effect": [
+        "Passive: All Dark and Divine disciples can learn Silence: Dark morale ability that disables opponents morale abilities. Scales on Might and knowledge (Fear).",
+        "Action: Enforce Silence. Cost 150, cooldown 3. Choose a disciple to gain Silence++ for 1 mission. For 1 mission, gain +1/2/3/4 Spark if disciples have 3/6/10/15 Fear abilities on their mind."
+      ],
+      "category": "ECONOMY",
+      "tenet_names": [
+        "Summoning",
+        "Approve Appropriation",
+        "Arranged Marriages",
+        "Master Order",
+        "Official Greeting",
+        "Secret Society",
+        "Blood Sport",
+        "Vow of Chastity"
+      ]
+    },
+    {
+      "name": "Idol",
+      "color": "PINK",
+      "effect": [
+        "Action: Assign Idol. Choose Idol. If participating, +50% charisma materials from tribute chests. -5 Faith. Can learn strong AoE Life Morale ability that can infatuate targets.",
+        "Action: Please Fans. Cost 25, cooldown 4. If Idol participates, +2 tribute chests for 1 mission. -5 Faith."
+      ],
+      "category": "ECONOMY",
+      "tenet_names": [
+        "Love Marriages",
+        "Master Order",
+        "Order of Priests",
+        "Prosperity Gospel",
+        "Adore Llamas",
+        "Incense and Rose Petals",
+        "Venerate Dogs",
+        "Worship Cats",
+        "Zero Commitment",
+        "Oiled Prayer"
+      ]
+    },
+    {
+      "name": "Champion of God",
+      "color": "RED",
+      "effect": [
+        "Action: Assign champion. Choose Champion of God. If participating, +50% health materials from tribute chests. Can learn Life physical ability that steals converts.",
+        "Action: Rally Troops. Cost 100, cooldown 3. +1 tribute chest for next mission. All disciples boost to physical and moral armor"
+      ],
+      "category": "ECONOMY",
+      "tenet_names": [
+        "Code of Honor",
+        "Promote Virginity",
+        "Sun Deity",
+        "Order of Paladins",
+        "Holy Training",
+        "Study Scriptures"
+      ]
+    },
+    {
+      "name": "War Slaves",
+      "color": "RED",
+      "effect": [
+        "Passive: -1 Happiness, +1 Tribute Chest from repeatables.",
+        "Action: Double Shifts. Cost 0, cooldown 3. +100% materials from tribute chests for 1 mission if it's repeatable. -2 Faith for all disciples."
+      ],
+      "category": "ECONOMY",
+      "tenet_names": [
+        "Barbarism",
+        "Capital",
+        "Code of Honor",
+        "Hell",
+        "Teamwork",
+        "Holy Raid",
+        "Stern Sermons",
+        "Blood Sport",
+        "Meal Prayer"
+      ]
+    },
+    {
+      "name": "Holy Judge",
+      "color": "CYAN",
+      "effect": [
+        "Action: Assign Holy Judge. Cost 0. Can learn Ancestral morale ability that disables physical abilities. Scales on devotion (Reason, Grace).",
+        "Action: Holy Trial. Cost 100, cooldown 3. Judge another disciple. +1 Tribute Chest for 1 mission. +1 Tribute Chest for 1 mission per 2 Reason abilities on the Holy Judge's mind. Judged disciple gains 2 Clouded Thoughts for 2 missions."
+      ],
+      "category": "ECONOMY",
+      "tenet_names": [
+        "Free Speech",
+        "Heaven",
+        "Hell",
+        "Master Order",
+        "Peaceful Protests",
+        "Stern Sermons",
+        "Indulgences",
+        "Venerate Dogs"
+      ]
+    },
+    {
+      "name": "Animism",
+      "color": "YELLOW",
+      "effect": [
+        "Passive: Nature and Life disciples +20 Faith.",
+        "Action: Commune with Spirits. Cost 50, cooldown 3. Next mission +20% stats if Nature disciple in team. +2 Fervor. If participating: +50% Offering from Tribute Chests for 1 mission."
+      ],
+      "category": "ECONOMY",
+      "tenet_names": [
+        "Meditation",
+        "Morning Prayer",
+        "Offer Food",
+        "Rain Deity",
+        "Naturism",
+        "Smoking Truth-leaves",
+        "Joyful Sermons"
+      ]
+    },
+    {
+      "name": "Baptism",
+      "color": "BLUE",
+      "effect": [
+        "Action: Baptize. Cost 0, cooldown 3. Baptize a disciple. +25 Faith and regain all Fervor. Develop 2x devotion. +100% offerings from tribute chests for 1 mission.",
+        "Each disciple can only be baptized once."
+      ],
+      "category": "ECONOMY",
+      "tenet_names": [
+        "Hell",
+        "Promote Virginity",
+        "Sabbath",
+        "Arranged Marriages",
+        "Love Marriages",
+        "Official Greeting",
+        "Prosperity Gospel",
+        "Secret Society"
+      ]
+    },
+    {
+      "name": "Revelations",
+      "color": "PINK",
+      "effect": [
+        "Action: Revelation. Cost 75, cooldown 1. Reveal yourself to one disciple who gains progress current ritual x8 and 2 years of age.",
+        "Action: Final Revelation. Cost ?, cooldown ?. Let an Elder Disciple die. Gain +1/2/4 spark if disciple has rank F/C/A Devotion."
+      ],
+      "category": "ECONOMY",
+      "tenet_names": [
+        "Meditation",
+        "Night Prayer",
+        "Ritual Cleaning",
+        "Reclusion",
+        "Zero Commitment"
+      ]
+    },
+    {
+      "name": "Hermit Pilgrimage",
+      "color": "BLUE",
+      "effect": [
+        "Action: Hermit Pilgrimage. Cost 100, cooldown 1. Choose a disciple with at least X knowledge (X based on island). Disciple will gain: Unavailable for 1 mission, 8 xp, 2 ability points."
+      ],
+      "category": "POWER",
+      "tenet_names": [
+        "Adore Llamas",
+        "Love Marriages",
+        "Arranged Marriages",
+        "Official Greeting",
+        "Secret Society",
+        "Hell",
+        "Promote Virginity",
+        "Reclusion",
+        "Sabbath"
+      ]
+    },
+    {
+      "name": "Just New World",
+      "color": "LIGHT_GREEN",
+      "effect": [
+        "Action: Declare Revolution. Cost 250, cooldown 6. All disciples complete their current ritual. All disciples gain boosted moracle and physical damage for 1 mission. +100% materials from Tribute Chests for 1 mission."
+      ],
+      "category": "POWER",
+      "tenet_names": [
+        "Offer Food",
+        "Singing Circles",
+        "Order of Priests",
+        "Barbarism",
+        "Code of Honor",
+        "Free Speech",
+        "Teamwork"
+      ]
+    },
+    {
+      "name": "Burials",
+      "color": "GREY",
+      "effect": [
+        "Passive: When disciple dies, next mission +1/3/7 tribute chests if rank C/B/A Health.",
+        "Action: Ceremonial Burial. Cost 150, cooldown 4. Hold a burial (no deaths needed). All disciples develop x1 Health. Temporary -2 happiness"
+      ],
+      "category": "POWER",
+      "tenet_names": [
+        "Code of Honor",
+        "Love Marriages",
+        "Official Greeting",
+        "Order of Paladins",
+        "Blood Offer",
+        "Night Prayer",
+        "Vow of Chastity"
+      ]
+    },
+    {
+      "name": "Heavenly Art",
+      "color": "LIGHT_GREEN",
+      "effect": [
+        "Action: Choose Heavenly Sculptor. Can learn strong Life morale ability that scales on Charisma and Knowledge and lowers opponents morale damage (Grace).",
+        "Action: Inspire Great Art. Cost 200, cooldown 3. Upgrade all future disciples' base stats by 1. Talk more about art for 1 mission. Attract new followers depending on knowledge."
+      ],
+      "category": "POWER",
+      "comment": "Might also contain Joyful Sermons.",
+      "tenet_names": [
+        "Capital",
+        "Free Speech",
+        "Naturism",
+        "Arts Patronage",
+        "Joyful Sermons",
+        "Mutilate Heretics",
+        "Religious Poetry"
+      ]
+    },
+    {
+      "name": "School of Philosophy",
+      "color": "CYAN",
+      "effect": [
+        "Action: Send to School. Cost 100, cooldown 3. Disciple unavailable for 1 mission. Develop 1x Knowledge, gain 4 xp, and learn an ability (Preferred: Reason)"
+      ],
+      "category": "POWER",
+      "tenet_names": [
+        "Free Speech",
+        "Reclusion",
+        "Smoking Truth-leaves",
+        "Arts Patronage",
+        "Organize Debates",
+        "Secret Society",
+        "Study Scriptures",
+        "Worship Cats"
+      ]
+    },
+    {
+      "name": "Ecstatic Salvation",
+      "color": "PINK",
+      "effect": [
+        "Action: Grant Ecstacy. Cost 100, cooldown 3. Disciple gains develop 2x Cunning. If participating +50% cunning materials from tribute chests in 1 mission. +10 Faith"
+      ],
+      "category": "POWER",
+      "tenet_names": [
+        "Incense and Rose Petals",
+        "Religious Poetry",
+        "Lover's Day",
+        "Heaven",
+        "Smoking Truth-leaves",
+        "Summoning"
+      ]
+    },
+    {
+      "name": "Cannibalism",
+      "color": "GREY",
+      "effect": [
+        "Action: Cannibal Meal. Cost 0, cooldown 2. Disciple gains 1x Might, Health and Cunning development. -10 Faith"
+      ],
+      "category": "POWER",
+      "tenet_names": [
+        "Meal Prayer",
+        "Oiled Prayer",
+        "Ritual Cleaning",
+        "Master Order",
+        "Barbarism",
+        "Free Speech"
+      ]
+    },
+    {
+      "name": "Holy Marriage",
+      "color": "BLUE",
+      "effect": [
+        "Action: Holy Marriage. Choose a Holy Spouse. He/she gains if participating +25% devotion offerings from tribute chests.",
+        "Action: Holy Procession. Cost 100, cooldown 3. Holy Spouse gains develop 1 devotion and 0.25 other stats. -10 Faith."
+      ],
+      "category": "POWER",
+      "tenet_names": [
+        "Heaven",
+        "Promote Virginity",
+        "Sun Deity",
+        "Teamwork",
+        "Love Marriages",
+        "Arranged Marriages",
+        "Choir Music",
+        "Offer Gold",
+        "Venerate Dogs"
+      ]
+    },
+    {
+      "name": "Doom Prophecy",
+      "color": "PURPLE",
+      "effect": [
+        "Action: Doom Prophecy. Cost 0, cooldown 3. Choose disciple. Develop 0.5 Charisma & 0.5 Knowledge. One Mad thought for 1 mission. If participating +100% knowledge offerings from tribute chests"
+      ],
+      "category": "POWER",
+      "tenet_names": [
+        "Evil Deity",
+        "Power of the Market",
+        "Reclusion",
+        "Sea Deity",
+        "Organize Debates",
+        "Stern Sermons",
+        "Mutilate Heretics"
+      ]
+    },
+    {
+      "name": "Trade Missions",
+      "color": "YELLOW",
+      "effect": [
+        "Action: Trade Mission. Cost 150, cooldown 5. Send a disciple. Unavailable for 2 missions. Permanently add +5/10/20 Passive materials income if disciple has D/B/A knowledge rank. All disciples develop 1x knowledge."
+      ],
+      "category": "POWER",
+      "tenet_names": [
+        "Capital",
+        "Power of the Market",
+        "Teamwork",
+        "Order of Monks",
+        "Order of Priests",
+        "Adore Llamas",
+        "Offer Gold",
+        "Venerate Dogs"
+      ]
+    },
+    {
+      "name": "Bribery",
+      "color": "YELLOW",
+      "effect": [
+        "Action: Bribe. Cost 0, cooldown 1. Choose disciple. Develops 2x Might. +20 Faith. -1 Happiness"
+      ],
+      "category": "POWER",
+      "tenet_names": [
+        "Barbarism",
+        "Zero Commitment",
+        "Approve Appropriation",
+        "Master Order",
+        "Prosperity Gospel",
+        "Indulgences",
+        "Venerate Dogs",
+        "Worship Cats"
+      ]
+    },
+    {
+      "name": "Alchemy",
+      "color": "PURPLE",
+      "effect": [
+        "Action: Choose an Alchemist. +1 Knowledge scaling on all physical abilities. Will sometimes use Concoction which heals allies based on Knowledge and raises Might and another random physical stat.",
+        "Action: Perform Alchemy. Cost 100, cooldown 3 days (practically 1 mission). Turn 100 Offerings into 50/70/90 Materials if alchemist has Knowledge rank F/C/A"
+      ],
+      "category": "POWER",
+      "tenet_names": [
+        "Rain Deity",
+        "Organize Debates",
+        "Adore Llamas",
+        "Incense and Rose Petals",
+        "Meal Prayer",
+        "Offer Gold"
+      ]
+    },
+    {
+      "name": "Martial Arts",
+      "color": "RED",
+      "effect": [
+        "Passive: All overpower abilities lower all opponent's physical armor with 50% for 1 round.",
+        "Action: Bless fists. Cost 100, cooldown 3. Choose a disciple. If participating: +100% Might Offerings from Tribute chests. Chance to follow up ally's physical ability if turn is NOT yet taken."
+      ],
+      "category": "POWER",
+      "tenet_names": [
+        "Code of Honor",
+        "No Pain, No Gain",
+        "Reclusion",
+        "Arts Patronage",
+        "Order of Monks",
+        "Blood Sport",
+        "Holy Training",
+        "Mutilate Heretics"
+      ]
+    },
+    {
+      "name": "Reincarnation",
+      "color": "GREEN",
+      "effect": [
+        "Action: Reincarnate the First Prophet. Choose a disciple with an advanced class who can still gain a miracle. Enough XP to gain a level. A powerful Prophet Miracle. +15 Faith.",
+        "Action: Stories from the past. Cost 100, cooldown 3. If Prophet (Reincarnate) participates: +1 Tribute chest. +1 Tribute chest if highest Might or Charisma. +5 citizens per power"
+      ],
+      "category": "POWER",
+      "tenet_names": [
+        "Ritual Cleaning",
+        "Joyful Sermons",
+        "Order of Monks",
+        "Order of Priests",
+        "No Pain, No Gain",
+        "Sabbath"
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "name": "Harbinger",
+      "element": "DARK",
+      "availability": "GENERAL",
+      "stats": [
+        "Knowledge",
+        "Health"
+      ],
+      "de_buffs": "+30 Morale Accuracy, +30 Physical Accuracy, -10 Morale Armor",
+      "passives": [
+        {
+          "name": "Heavy Aura",
+          "effect": "-10 Morale armor for all opponents (same effect does not stack).",
+          "level": 2
+        },
+        {
+          "name": "Weakening Aura",
+          "effect": "-25% might for all opponents.",
+          "level": 2
+        },
+        {
+          "name": "Channel Negativity",
+          "effect": "+5% charisma and might per debuff the opponent has.",
+          "level": 4
+        },
+        {
+          "name": "Dark Guardian",
+          "effect": "Significantly increases the chance to intercept physical. Gain resistance vs Dark.",
+          "level": 4
+        },
+        {
+          "name": "Break & Berate",
+          "effect": "Always follow up another ally's Reason ability.",
+          "level": 5
+        },
+        {
+          "name": "Reaper",
+          "effect": "+20% might and health every time another ally uses a Fear ability.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Demoralize",
+          "element": "DARK",
+          "type": "MORALE",
+          "style": "Reason",
+          "stats": "Knowledge",
+          "effect": "Lesser morale ability that lowers morale armor"
+        },
+        {
+          "name": "Mortify",
+          "element": "DARK",
+          "type": "MORALE",
+          "style": "Fear",
+          "stats": "Knowledge, Health",
+          "effect": "Morale ability that has a chance to Fear"
+        },
+        {
+          "name": "Shattering Spell",
+          "element": "DARK",
+          "type": "PHYSICAL",
+          "style": "Sorcery",
+          "stats": "Health",
+          "effect": "Physical ability"
+        }
+      ]
+    },
+    {
+      "name": "Guardian",
+      "element": "LIGHT",
+      "availability": "GENERAL",
+      "stats": [
+        "Cunning",
+        "Health"
+      ],
+      "de_buffs": "+50% HP, increased intercept physical, -25 critical hit chance",
+      "passives": [
+        {
+          "name": "Vigilance",
+          "effect": "+100 initiative.",
+          "level": 2
+        },
+        {
+          "name": "Great Defender",
+          "effect": "Convert based on Health when intercept physical.",
+          "level": 2
+        },
+        {
+          "name": "Force of God",
+          "effect": "+50% Base physical power.",
+          "level": 4
+        },
+        {
+          "name": "Spiked Shield",
+          "effect": "Chance to counter a physical attack. Counter-attack scales with Health.",
+          "level": 4
+        },
+        {
+          "name": "Juggernaut",
+          "effect": "+20% might and cunning every time another ally uses an overpower ability.",
+          "level": 5
+        },
+        {
+          "name": "Mountain of Life",
+          "effect": "+30% Health. Resistance vs Dark.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Wall",
+          "element": "LIGHT",
+          "type": "PHYSICAL",
+          "style": "Grace",
+          "stats": "Health",
+          "effect": "Self-heal, increase physical armor and the chance to intercept physical for one turn."
+        },
+        {
+          "name": "Shield Bash",
+          "element": "LIGHT",
+          "type": "PHYSICAL",
+          "style": "Overpower",
+          "stats": "Health",
+          "effect": "Lesser physical ability, but has a chance to stun."
+        },
+        {
+          "name": "Life Strike",
+          "element": "LIGHT",
+          "type": "PHYSICAL",
+          "style": "Sorcery",
+          "stats": "Cunning",
+          "effect": "A Life physical ability"
+        }
+      ]
+    },
+    {
+      "name": "Rage Prophet",
+      "element": "ANCESTRAL",
+      "availability": "GENERAL",
+      "stats": [
+        "Might",
+        "Health"
+      ],
+      "de_buffs": "+50% HP, increased optimal targeting, -10 morale armor.",
+      "passives": [
+        {
+          "name": "Rage",
+          "effect": "Gain +25% damage boost after being hit by a physical attack.",
+          "level": 2
+        },
+        {
+          "name": "Sorcerer's Knight",
+          "effect": "+1 might for each 5 knowledge in your team before start.",
+          "level": 2
+        },
+        {
+          "name": "Revenge",
+          "effect": "Chance to counter a physical attack. Counter-attack scales with Health.",
+          "level": 4
+        },
+        {
+          "name": "Wild Eye",
+          "effect": "25% of might added to critical hit chance.",
+          "level": 4
+        },
+        {
+          "name": "Magic Strike",
+          "effect": "+25% damage every time another ally uses a sorcery ability.",
+          "level": 5
+        },
+        {
+          "name": "Avatar of Strife",
+          "effect": "Resistance vs Life. Chance to follow up enemy Life abilities.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Concussion",
+          "element": "NONE",
+          "type": "PHYSICAL",
+          "style": "Overpower",
+          "stats": "Health",
+          "effect": "An elementless physical ability with a chance to stun the target."
+        },
+        {
+          "name": "Blind Rage",
+          "element": "ANCESTRAL",
+          "type": "PHYSICAL",
+          "style": "Fear",
+          "stats": "Might",
+          "effect": "Random power ancestral physical ability that targets a random opponent with reduced chance to hit."
+        },
+        {
+          "name": "Ancestral Strike",
+          "element": "ANCESTRAL",
+          "type": "PHYSICAL",
+          "style": "Sorcery",
+          "stats": "Might",
+          "effect": "An ancestral physical ability"
+        }
+      ]
+    },
+    {
+      "name": "Beast Walker",
+      "element": "NATURE",
+      "availability": "GENERAL",
+      "stats": [
+        "Might",
+        "Cunning"
+      ],
+      "de_buffs": "+10 initiative, +10 critical hit chance, -25% HP",
+      "passives": [
+        {
+          "name": "Swift Hunter",
+          "effect": "+25 crit chance and +25 evasion on first 2 turns.",
+          "level": 2
+        },
+        {
+          "name": "Counterslash",
+          "effect": "Counter whenever an ally Evades a physical attack",
+          "level": 2
+        },
+        {
+          "name": "Prowlers",
+          "effect": "Allied abilities gain +Evasion scaling for damage (same effect does not stack).",
+          "level": 4
+        },
+        {
+          "name": "God-Hunter",
+          "effect": "Chance to Follow up enemy divine abilities.",
+          "level": 4
+        },
+        {
+          "name": "Swift Judgement",
+          "effect": "Extra Move on your first turn.",
+          "level": 5
+        },
+        {
+          "name": "God Steps",
+          "effect": "+20% might and cunning every time another ally uses a Grace ability.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invisible Prowl",
+          "element": "NATURE",
+          "type": "PHYSICAL",
+          "style": "Sorcery",
+          "stats": "Cunning",
+          "effect": "A lesser nature physical ability that increases the evasion of your allies."
+        },
+        {
+          "name": "Agile Claw",
+          "element": "NATURE",
+          "type": "PHYSICAL",
+          "style": "Grace",
+          "stats": "Cunning",
+          "effect": "A nature physical ability with increased chance to hit."
+        },
+        {
+          "name": "Critical Claw",
+          "element": "NATURE",
+          "type": "PHYSICAL",
+          "style": "Fear",
+          "stats": "Might",
+          "effect": "A nature physical ability with increased chance to crit."
+        }
+      ]
+    },
+    {
+      "name": "Smitesword",
+      "element": "DIVINE",
+      "availability": "GENERAL",
+      "stats": [
+        "Might",
+        "Devotion"
+      ],
+      "de_buffs": "+10 morale armor, increased intercept morale, -10 initiative",
+      "passives": [
+        {
+          "name": "Counter Heresy",
+          "effect": "Chance to counter a morale attack. Counter scales with Might.",
+          "level": 2
+        },
+        {
+          "name": "Witch Hunter",
+          "effect": "+25% might and devotion if there is an enemy Dark disciple.",
+          "level": 2
+        },
+        {
+          "name": "Sword of Faith",
+          "effect": "The smitesword's abilities gain might scaling.",
+          "level": 4
+        },
+        {
+          "name": "Great Challenger",
+          "effect": "Convert based on Devotion when intercept morale.",
+          "level": 4
+        },
+        {
+          "name": "Fist of God",
+          "effect": "+25% might whenever another ally uses an overpower ability.",
+          "level": 5
+        },
+        {
+          "name": "Destined",
+          "effect": "+10% crit chance and +25% crit damage every time another ally uses a grace ability.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Challenge Heresy",
+          "element": "DIVINE",
+          "type": "MORALE",
+          "style": "Reason",
+          "stats": "Devotion",
+          "effect": "A divine morale ability that improves morale armor and the chance to intercept morale."
+        },
+        {
+          "name": "Smite",
+          "element": "DIVINE",
+          "type": "PHYSICAL",
+          "style": "Overpower",
+          "stats": "Might",
+          "effect": "A divine physical ability. Lowers the target's knowledge."
+        },
+        {
+          "name": "Judgement",
+          "element": "DIVINE",
+          "type": "PHYSICAL",
+          "style": "Grace",
+          "stats": "Might, Devotion",
+          "effect": "A potent divine physical ability that scales on both might and devotion."
+        }
+      ]
+    },
+    {
+      "name": "Chieftain",
+      "element": "ANCESTRAL",
+      "availability": "GENERAL",
+      "stats": [
+        "Might",
+        "Charisma"
+      ],
+      "de_buffs": "+10 initiative, +25% HP, -25 defy.",
+      "passives": [
+        {
+          "name": "Leader of God",
+          "effect": "Inspire a random other ally after using a Fear, Grace or Overpower ability. Inspired ally gains +25% might and health.",
+          "level": 2
+        },
+        {
+          "name": "Bodyguards",
+          "effect": "+10 physical armor and increased chance to intercept physical for other allies.",
+          "level": 2
+        },
+        {
+          "name": "Wild Envoy",
+          "effect": "Start with an extra turn if there is a Nature disciple on your side.",
+          "level": 4
+        },
+        {
+          "name": "Courage",
+          "effect": "Allied abilities gain might scaling for damage (same effect does not stack).",
+          "level": 4
+        },
+        {
+          "name": "Commander",
+          "effect": "+25% charisma every time another ally uses an overpower ability.",
+          "level": 5
+        },
+        {
+          "name": "Tyrant",
+          "effect": "+25% might every time another ally uses a fear ability.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Mighty Rally",
+          "element": "ANCESTRAL",
+          "type": "MORALE",
+          "style": "Grace",
+          "stats": "Charisma",
+          "effect": "An ancestral morale ability that targets all opponents and raises your team's might and charisma."
+        },
+        {
+          "name": "Totem Slam",
+          "element": "ANCESTRAL",
+          "type": "PHYSICAL",
+          "style": "Overpower",
+          "stats": "Might, Charisma",
+          "effect": "A powerful ancestral physical ability."
+        },
+        {
+          "name": "Intimidate",
+          "element": "ANCESTRAL",
+          "type": "MORALE",
+          "style": "Fear",
+          "stats": "Might, Charisma",
+          "effect": "A powerful ancestral morale ability."
+        }
+      ]
+    },
+    {
+      "name": "Weaver",
+      "element": "DARK",
+      "availability": "GENERAL",
+      "stats": [
+        "Knowledge",
+        "Charisma"
+      ],
+      "de_buffs": "+25 defy, increased optimal targeting, -25% HP",
+      "passives": [
+        {
+          "name": "Punish the Feeble",
+          "effect": "Counter Clouded actions.",
+          "level": 2
+        },
+        {
+          "name": "Power Word",
+          "effect": "+25% base morale power.",
+          "level": 2
+        },
+        {
+          "name": "Dazing Doom",
+          "effect": "Nightmare and Doom daze for 1 turn.",
+          "level": 4
+        },
+        {
+          "name": "Foresight",
+          "effect": "Gain +50% of knowledge to initiative.",
+          "level": 4
+        },
+        {
+          "name": "Dreamweaver",
+          "effect": "+20% charisma and knowledge every time another ally uses a sorcery ability.",
+          "level": 5
+        },
+        {
+          "name": "Whither",
+          "effect": "Cast Purple Haze in the first turn if there is an enemy nature disciple. Purple Haze deals Dark morale damage and dazes all opponents for one round.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Mind Stare",
+          "element": "DARK",
+          "type": "MORALE",
+          "style": "Overpower",
+          "stats": "Charisma",
+          "effect": "Lesser dark morale ability that dazes the mind of the opponent for the whole sacrament."
+        },
+        {
+          "name": "Condemn",
+          "element": "DARK",
+          "type": "MORALE",
+          "style": "Reason",
+          "stats": "Charisma",
+          "effect": "Dark morale ability. More likely to hit."
+        },
+        {
+          "name": "Nightmare",
+          "element": "DARK",
+          "type": "MORALE",
+          "style": "Sorcery, Fear",
+          "stats": "Knowledge",
+          "effect": "Dark morale ability with increased chance to crit."
+        }
+      ]
+    },
+    {
+      "name": "Zealot",
+      "element": "DIVINE",
+      "availability": "GENERAL",
+      "stats": [
+        "Charisma",
+        "Devotion"
+      ],
+      "de_buffs": "+10 morale armor, +10 initiative, -10 physical armor",
+      "passives": [
+        {
+          "name": "Righteousness",
+          "effect": "Always Follow up when another ally scores a critical hit.",
+          "level": 2
+        },
+        {
+          "name": "Zeal",
+          "effect": "Allied abilities gain devotion scaling for damage (same effect does not stack).",
+          "level": 2
+        },
+        {
+          "name": "Willpower",
+          "effect": "40% of devotion added to critical argument chance.",
+          "level": 4
+        },
+        {
+          "name": "Judge Ancestors",
+          "effect": "Chance to Follow up opponent ancestral abilities.",
+          "level": 4
+        },
+        {
+          "name": "Hell",
+          "effect": "+10% charisma for all allies whenever another ally uses a fear ability.",
+          "level": 5
+        },
+        {
+          "name": "Forgiveness",
+          "effect": "+25% devotion every time another ally uses a grace ability.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Blessing",
+          "element": "DIVINE",
+          "type": "MORALE",
+          "style": "Grace",
+          "stats": "Devotion",
+          "effect": "Lesser divine morale ability that raises the crit chance of all allies."
+        },
+        {
+          "name": "Castigate",
+          "element": "DIVINE",
+          "type": "MORALE",
+          "style": "Fear",
+          "stats": "Charisma",
+          "effect": "Divine morale ability."
+        },
+        {
+          "name": "Question",
+          "element": "DIVINE",
+          "type": "MORALE",
+          "style": "Reason",
+          "stats": "Charisma",
+          "effect": "Lesser divine morale abilty that dazes the opponent for one round."
+        }
+      ]
+    },
+    {
+      "name": "Druid",
+      "element": "NATURE",
+      "availability": "GENERAL",
+      "stats": [
+        "Knowledge",
+        "Devotion"
+      ],
+      "de_buffs": "+10 morale armor, +25% HP, -10 critical argument chance.",
+      "passives": [
+        {
+          "name": "Nature's Defiance",
+          "effect": "+10 morale armor for all allies (same effect does not stack).",
+          "level": 2
+        },
+        {
+          "name": "The Four Truths",
+          "effect": "Allied morale abilities gain knowledge scaling (same effect does not stack).",
+          "level": 2
+        },
+        {
+          "name": "Spell Combo",
+          "effect": "Chance to Entangle (physical ability) whenever another ally uses a sorcery abilty.",
+          "level": 4
+        },
+        {
+          "name": "Skeptic",
+          "effect": "Druid's morale abilities gain extra morale armor scaling.",
+          "level": 4
+        },
+        {
+          "name": "Peacekeeper",
+          "effect": "Heal and convert every time another ally uses a reason ability. Scales on devotion.",
+          "level": 5
+        },
+        {
+          "name": "Serenity",
+          "effect": "+25% knowledge every turn after the first.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Wisdom",
+          "element": "NATURE",
+          "type": "MORALE",
+          "style": "Reason",
+          "stats": "Devotion",
+          "effect": "Lesser nature morale ability that raises user's morale armor and chance to intercept morale for 2 rounds."
+        },
+        {
+          "name": "Marvel of Growth",
+          "element": "NATURE",
+          "type": "MORALE",
+          "style": "Grace",
+          "stats": "Knowledge",
+          "effect": "A nature morale ability."
+        },
+        {
+          "name": "Entangle",
+          "element": "NATURE",
+          "type": "PHYSICAL",
+          "style": "Sorcery",
+          "stats": "Knowledge",
+          "effect": "A nature physical ability that leaves the target hampered and unable to use some morale abilities."
+        }
+      ]
+    },
+    {
+      "name": "Songsmith",
+      "element": "LIFE",
+      "availability": "GENERAL",
+      "stats": [
+        "Charisma",
+        "Cunning"
+      ],
+      "de_buffs": "+10 evasion, +10 crit argument chance, -10 morale armor",
+      "passives": [
+        {
+          "name": "Melodies",
+          "effect": "Removes hit chance penalty for AoE abilities.",
+          "level": 2
+        },
+        {
+          "name": "Elegance",
+          "effect": "Allied abilities gain +cunning scaling for damage (same effect does not stack).",
+          "level": 2
+        },
+        {
+          "name": "Song",
+          "effect": "The songsmith's abilities gain +charisma scaling.",
+          "level": 4
+        },
+        {
+          "name": "Dance of Faith",
+          "effect": "Follow up with an ally evades a physical attack.",
+          "level": 4
+        },
+        {
+          "name": "Mirage",
+          "effect": "+25% cunning whenever an ally uses a Sorcery ability.",
+          "level": 5
+        },
+        {
+          "name": "Gloria",
+          "effect": "+25% charisma whenever an ally uses a Grace ability.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Loud Hymn",
+          "element": "LIFE",
+          "type": "MORALE",
+          "style": "Overpower",
+          "stats": "Charisma",
+          "effect": "A Life morale ability that targets all opponents and heals your disciples."
+        },
+        {
+          "name": "Classic Song",
+          "element": "LIFE",
+          "type": "MORALE",
+          "style": "Reason",
+          "stats": "Charisma",
+          "effect": "A strong Life morale ability that targets all opponents, but lowers your physical armor."
+        },
+        {
+          "name": "Performance",
+          "element": "LIFE",
+          "type": "MORALE",
+          "style": "Grace",
+          "stats": "Cunning",
+          "effect": "A Life morale ability that raises your team's cunning."
+        }
+      ]
+    },
+    {
+      "name": "Executioner",
+      "element": "DARK",
+      "availability": "WAR",
+      "stats": [
+        "Might",
+        "Health"
+      ],
+      "de_buffs": "+25 critical hit chance, increased optimal targeting, -25 evasion.",
+      "passives": [
+        {
+          "name": "Killer",
+          "effect": "Will be more likely to target a low health opponent. Can be improved with knowledge.",
+          "level": 2
+        },
+        {
+          "name": "Brutal",
+          "effect": "+25% base physical power",
+          "level": 2
+        },
+        {
+          "name": "Relentless",
+          "effect": "Small chance to act twice (only high faith).",
+          "level": 4
+        },
+        {
+          "name": "Bully",
+          "effect": "Rend and War Reaper remove converted followers.",
+          "level": 4
+        },
+        {
+          "name": "Bloodbath",
+          "effect": "Chance to Follow up another ally's overpower ability.",
+          "level": 5
+        },
+        {
+          "name": "Avatar of War",
+          "effect": "Chance to gain +25% might whenever another ally uses a fear ability.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Rend",
+          "element": "ANCESTRAL",
+          "type": "PHYSICAL",
+          "style": "Overpower",
+          "stats": "Health",
+          "effect": "An ancestral physical ability that lowers the target's physical armor."
+        },
+        {
+          "name": "War Reaper",
+          "element": "DARK",
+          "type": "PHYSICAL",
+          "style": "Overpower, Fear",
+          "stats": "Might",
+          "effect": "A Dark physical ability."
+        },
+        {
+          "name": "War Wind",
+          "element": "DARK",
+          "type": "PHYSICAL",
+          "style": "Sorcery",
+          "stats": "Might, Health",
+          "effect": "A Dark physical ability that targets all enemies."
+        }
+      ]
+    },
+    {
+      "name": "Ascetic",
+      "element": "DIVINE",
+      "availability": "PURITY",
+      "stats": [
+        "Devotion",
+        "Health"
+      ],
+      "de_buffs": "+2 fervor, increased intercept morale, increased intercept physical",
+      "passives": [
+        {
+          "name": "Washing",
+          "effect": "Heal all allies in all but the first turn. Scales on Health.",
+          "level": 2
+        },
+        {
+          "name": "Suffering",
+          "effect": "Convert based on devotion when intercept physical and intercept morale.",
+          "level": 2
+        },
+        {
+          "name": "Focus",
+          "effect": "+10 defy for all allies.",
+          "level": 4
+        },
+        {
+          "name": "Hardened",
+          "effect": "Abilities gain extra physical armor scaling.",
+          "level": 4
+        },
+        {
+          "name": "Chastising Vow",
+          "effect": "+20% health and devotion whenever another ally uses a fear ability.",
+          "level": 5
+        },
+        {
+          "name": "Reproach",
+          "effect": "Always Follow up whenever an ally defies a morale attack.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Shame",
+          "element": "DIVINE",
+          "type": "MORALE",
+          "style": "Fear, Reason",
+          "stats": "Devotion",
+          "effect": "A divine morale ability replaces morale attacks with shame."
+        },
+        {
+          "name": "Purify",
+          "element": "DIVINE",
+          "type": "MORALE",
+          "style": "Grace",
+          "stats": "Health, Devotion",
+          "effect": "A divine morale ability that decreases target's morale accuracy for one turn."
+        },
+        {
+          "name": "Purge",
+          "element": "DARK",
+          "type": "PHYSICAL",
+          "style": "Overpower",
+          "stats": "Health",
+          "effect": "A Dark physical ability that often goes for the weakest target."
+        }
+      ]
+    },
+    {
+      "name": "Cook",
+      "element": "NATURE",
+      "availability": "GENEROSITY",
+      "stats": [
+        "Knowledge",
+        "Charisma"
+      ],
+      "de_buffs": "+10 initiative, +10 crit argument chance, -10 physical armor",
+      "passives": [
+        {
+          "name": "Banquet",
+          "effect": "-30% cunning for all opponents (same effect does not stack).",
+          "level": 2
+        },
+        {
+          "name": "Aromas",
+          "effect": "+25 morale accuracy for all allies (same effect does not stack).",
+          "level": 2
+        },
+        {
+          "name": "Good Chief",
+          "effect": "+10 devotion. Resistance vs Divine",
+          "level": 4
+        },
+        {
+          "name": "Force Feed",
+          "effect": "Counter with 'Miracle Bounty' when an enemy defies a morale attack.",
+          "level": 4
+        },
+        {
+          "name": "Generous Taste",
+          "effect": "All allies gain +25% base morale power whenever an ally uses a Grace ability.",
+          "level": 5
+        },
+        {
+          "name": "Lively Feast",
+          "effect": "Sometimes gain +10% knowledge and charisma whenever another ally uses a Life ability.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Split Meal",
+          "element": "NATURE",
+          "type": "MORALE",
+          "style": "Reason",
+          "stats": "Knowledge",
+          "effect": "Small heal. Boosts both target's and own morale damage with +25%."
+        },
+        {
+          "name": "Miracle Bounty",
+          "element": "NATURE",
+          "type": "MORALE",
+          "style": "Sorcery",
+          "stats": "Charisma, Knowledge",
+          "effect": "Potent morale ability, but also gives target +25% physical damage."
+        },
+        {
+          "name": "Nurse",
+          "element": "DIVINE",
+          "type": "MORALE",
+          "style": "Grace",
+          "stats": "Charisma",
+          "effect": "A Divine morale ability."
+        }
+      ]
+    },
+    {
+      "name": "Ambassador",
+      "element": "ANCESTRAL",
+      "availability": "PEACE",
+      "stats": [
+        "Charisma",
+        "Devotion"
+      ],
+      "de_buffs": "+25% HP, -25 initiative, -10 evasion",
+      "passives": [
+        {
+          "name": "Peace for All",
+          "effect": "Divine Peace and Peace Offer now target all opponents, and gain the corresponding hit and damage penalty.",
+          "level": 2
+        },
+        {
+          "name": "Guild",
+          "effect": "-15 Physical accuracy for all opponents each turn (stacks 4 times).",
+          "level": 2
+        },
+        {
+          "name": "Penetrating Word",
+          "effect": "Ambassador's morale attack is a lot harder to intercept morale.",
+          "level": 4
+        },
+        {
+          "name": "Peace Envoy",
+          "effect": "Start with an extra turn if there is a Divine disciple on your side.",
+          "level": 4
+        },
+        {
+          "name": "Voice of Reason",
+          "effect": "+25% knowledge and charisma every time another ally uses a Reason ability.",
+          "level": 5
+        },
+        {
+          "name": "Amazing Grace",
+          "effect": "Allied Grace abilities gain +2 devotion scaling for damage.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Unity",
+          "element": "ANCESTRAL",
+          "type": "MORALE",
+          "style": "Reason, Grace",
+          "stats": "Devotion",
+          "effect": "Heals disciples and raises their devotion and charisma."
+        },
+        {
+          "name": "Peace Offer",
+          "element": "ANCESTRAL",
+          "type": "MORALE",
+          "style": "Reason",
+          "stats": "Charisma",
+          "effect": "An Ancestral morale ability."
+        },
+        {
+          "name": "Divine Peace",
+          "element": "DIVINE",
+          "type": "MORALE",
+          "style": "Sorcery",
+          "stats": "Charisma",
+          "effect": "A Divine morale ability."
+        }
+      ]
+    },
+    {
+      "name": "Charlatan",
+      "element": "LIFE",
+      "availability": "GREED",
+      "stats": [
+        "Knowledge",
+        "Cunning"
+      ],
+      "de_buffs": "+25 evasion, +10 crit argument chance, -25% HP",
+      "passives": [
+        {
+          "name": "Heritage Talks",
+          "effect": "Chance to counter a physical ability with the 'Show-Off Wealth' ability",
+          "level": 2
+        },
+        {
+          "name": "Rob the Fools",
+          "effect": "-20 physical and morale accuracy to target on a critical hit or argument.",
+          "level": 2
+        },
+        {
+          "name": "Thievery",
+          "effect": "All abilities steal material equal to 25% of the damage dealt.",
+          "level": 4
+        },
+        {
+          "name": "Greedy Heart",
+          "effect": "+10 critical hit and argument chance. crits do +25% damage if the charlatan has less than 50% HP left. Resistance vs Dark",
+          "level": 4
+        },
+        {
+          "name": "Con Artist",
+          "effect": "+20% knowledge and charisma every time another ally uses a Reason ability.",
+          "level": 5
+        },
+        {
+          "name": "Razzle Dazzle",
+          "effect": "+25% cunning every time another ally uses a Sorcery ability.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Show-Off Heritage",
+          "element": "ANCESTRAL",
+          "type": "PHYSICAL",
+          "style": "Grace",
+          "stats": "Cunning",
+          "effect": "An Ancestral physical ability that targets all opponents. Other allies are more likely to intercept physical for one turn."
+        },
+        {
+          "name": "Golden Scepter",
+          "element": "LIFE",
+          "type": "PHYSICAL",
+          "style": "Fear",
+          "stats": "Cunning, Knowledge",
+          "effect": "Strong Life physical ability. Scales on both Cunning and Knowledge."
+        },
+        {
+          "name": "Con",
+          "element": "LIFE",
+          "type": "MORALE",
+          "style": "Reason",
+          "stats": "Knowledge",
+          "effect": "A Life morale ability that steals materials."
+        }
+      ]
+    },
+    {
+      "name": "Lust Priest",
+      "element": "NATURE",
+      "availability": "PLEASURE",
+      "stats": [
+        "Charisma",
+        "Cunning"
+      ],
+      "de_buffs": "+30 physical accuracy, increased optimal targeting, -1 fervor",
+      "passives": [
+        {
+          "name": "Get Risky",
+          "effect": "+10 crit hit chance, +5 crit argument chance",
+          "level": 2
+        },
+        {
+          "name": "Attraction",
+          "effect": "Allied abilities gain +charisma scaling for damage and conversion (same effect does not stack).",
+          "level": 2
+        },
+        {
+          "name": "Sensuality",
+          "effect": "Allied Grace and Sorcery abilities have 25% chance of inflicting Infatuated debuff",
+          "level": 4
+        },
+        {
+          "name": "Flexible",
+          "effect": "+15 evasion, +15 defy",
+          "level": 4
+        },
+        {
+          "name": "Beguile",
+          "effect": "Steal converts when an ally Evades a physical attack. Steal is Life and Charisma based.",
+          "level": 5
+        },
+        {
+          "name": "Bacchanalia",
+          "effect": "In sacrament: +1 charisma and cunning for each 5 charisma in your team before the start of the Sacrament",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Alluring Body",
+          "element": "NATURE",
+          "type": "MORALE",
+          "style": "Grace, Sorcery",
+          "stats": "Charisma, Cunning",
+          "effect": "A Nature morale ability that targets all opponents. Scales with both Charisma and Cunning."
+        },
+        {
+          "name": "Seduce",
+          "element": "NATURE",
+          "type": "MORALE",
+          "style": "Grace",
+          "stats": "Charisma",
+          "effect": "A Nature morale ability that inflicts the infatuated debuff"
+        },
+        {
+          "name": "Sensual Touch",
+          "element": "LIFE",
+          "type": "PHYSICAL",
+          "style": "Overpower",
+          "stats": "Cunning",
+          "effect": "A Life physical ability with higher crit chance."
+        }
+      ]
+    },
+    {
+      "name": "Cultist",
+      "element": "DARK",
+      "availability": "MADNESS",
+      "stats": [
+        "Knowledge",
+        "Might"
+      ],
+      "de_buffs": "+25 crit argument chance, +25 crit hit chance, -10 physical accuracy",
+      "passives": [
+        {
+          "name": "Corrupt Power",
+          "effect": "In sacrament: +1 knowledge for each 5 might in your team before the start.",
+          "level": 2
+        },
+        {
+          "name": "Perfect Fodder",
+          "effect": "In sacrament, all allies gain: 'Cannot receive the Broken Faith status, do not lose converts when broken'.",
+          "level": 2
+        },
+        {
+          "name": "Surge of Might",
+          "effect": "The cultist's abilities gain Might scaling.",
+          "level": 4
+        },
+        {
+          "name": "Critical Madness",
+          "effect": "All allies gain +10 crit chance and deal +25% damage from critical hits (same effect does not stack).",
+          "level": 4
+        },
+        {
+          "name": "God of Magic",
+          "effect": "Sorcery abilities gain double extra Knowledge scaling.",
+          "level": 5
+        },
+        {
+          "name": "Force from the Deep",
+          "effect": "Gain +25% Might and Knowledge whenever an ally uses an Overpower ability.",
+          "level": 5
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Corruption",
+          "element": "DARK",
+          "type": "MORALE",
+          "style": "Sorcery",
+          "stats": "Might, Knowledge",
+          "effect": "Potent morale ability that scales on both might and knowledge."
+        },
+        {
+          "name": "Words of Madness",
+          "element": "DARK",
+          "type": "MORALE",
+          "style": "Fear",
+          "stats": "Knowledge",
+          "effect": "A Dark morale ability that makes opponent converts doubt back to Neutral."
+        },
+        {
+          "name": "Abberant Growth",
+          "element": "NATURE",
+          "type": "PHYSICAL",
+          "style": "Overpower, Sorcery",
+          "stats": "Might",
+          "effect": "A Nature physical ability that lowers cunning."
+        }
+      ]
+    }
+  ]
+}
