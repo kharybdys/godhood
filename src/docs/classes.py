@@ -15,7 +15,7 @@ class ClassesGuide(Guide):
 
     def generate_class(self, cls: GodhoodClass) -> str:
         effects = ["Available: " + cls.availability, "Element: " + cls.element, "Stats: " + ", ".join(cls.stats), cls.de_buffs]
-        return self.formatter.as_subheader(cls.name) + self.formatter.as_bullet_list(effects) + self.generate_abilities(cls) + self.generate_passives(cls)
+        return self.formatter.as_subheader(cls.name) + self.formatter.as_bullet_list(effects) + self.formatter.LINE_SEP + self.generate_abilities(cls) + self.generate_passives(cls)
 
     def generate_abilities(self, cls: GodhoodClass) -> str:
         return self.formatter.as_subsubheader("Abilities") + self.formatter.LINE_SEP.join([self.generate_ability(ability) for ability in cls.abilities])
