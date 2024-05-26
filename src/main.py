@@ -1,5 +1,6 @@
 import os
 from collections import defaultdict
+from itertools import batched
 from typing import Iterable
 
 from data.base import Tradition, TRADITIONS, Tenet, TENETS, get_data_tree
@@ -23,11 +24,13 @@ def find_tradition_by_name(name: str) -> Tradition:
 
 
 def names_to_traditions(names: Iterable[str], all_traditions: list[Tradition]) -> list[Tradition]:
-    result = []
+    result: dict[str, Tradition | None] = {}
+    for name in names:
+        result[name] = None
     for tradition in all_traditions:
         if tradition.name in names:
-            result.append(tradition)
-    return result
+            result[tradition.name] = tradition
+    return list(result.values())
 
 
 def validate_tradition_path(tradition_path: list[Tradition]) -> bool:
@@ -36,6 +39,7 @@ def validate_tradition_path(tradition_path: list[Tradition]) -> bool:
     for tenet in used_traditions[0].tenets:
         available_tenets.add(tenet)
     for tradition in tradition_path[1:]:
+        used_traditions.append(tradition)
         tenets_to_this_tradition = list(filter(lambda t: tradition.name in t.tradition_names, available_tenets))
         if tenets_to_this_tradition:
             print(f"Valid tenets to tradition {tradition.name} are: {tenets_to_this_tradition}")
@@ -43,7 +47,6 @@ def validate_tradition_path(tradition_path: list[Tradition]) -> bool:
             if len(tenets_to_this_tradition) == 1 and tenets_to_this_tradition[0].blocks:
                 available_tenets = {t for t in available_tenets if t.name not in tenets_to_this_tradition[0].blocks}
                 available_tenets.add(tenets_to_this_tradition[0])
-            used_traditions.append(tradition)
         else:
             print(f"Tradition {tradition.name} not reachable from: {used_traditions}")
             return False
@@ -108,6 +111,23 @@ def print_data_tree():
     print_tree(get_data_tree(max_depth))
 
 
+def print_tenet_list():
+    for tenet in TENETS:
+        traditions = ", ".join(tenet.tradition_names)
+        print(f"{tenet.name} ({tenet.type}): {traditions}")
+
+
+def print_tenets_by_category():
+    category_map = defaultdict(list)
+    for tenet in TENETS:
+        category_map[tenet.type].append(tenet.name)
+    for category, lst in category_map.items():
+        print(f"{category}: ")
+        for batch in batched(sorted(lst), 8):
+            printable = ", ".join(batch)
+            print(printable)
+
+
 def write_guides():
     docs_dir = os.path.join(os.path.dirname(__file__), "../docs")
     ClassesGuide(output_path=os.path.join(docs_dir, "CLASSES.md"), formatter=MarkdownFormatter()).write_output()
@@ -121,7 +141,9 @@ DESCRIPTION = "description"
 OPTIONS = {"1": {FUNCTION: check_next_reachable_traditions, DESCRIPTION: "Find the next reachable traditions given a tradition path?"},
            "2": {FUNCTION: reach_tradition, DESCRIPTION: "List all paths to reach a given tradition?"},
            "3": {FUNCTION: print_data_tree, DESCRIPTION: "Print the tradition tree?"},
-           "4": {FUNCTION: write_guides, DESCRIPTION: "Update all Markdown guides"}
+           "4": {FUNCTION: print_tenet_list, DESCRIPTION: "Print all the tenets as a list"},
+           "5": {FUNCTION: print_tenets_by_category, DESCRIPTION: "Print all the tenets per category"},
+           "6": {FUNCTION: write_guides, DESCRIPTION: "Update all Markdown guides"}
            }
 
 print("What do you want to do?")
